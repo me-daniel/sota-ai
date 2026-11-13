@@ -1,0 +1,1497 @@
+{
+ "extractor_version": "web_sources 1.0",
+ "source": "mercor_apex",
+ "category": "apex-v1",
+ "page": "https://www.mercor.com/apex/apex-v1-leaderboard/",
+ "wayback_capture": null,
+ "retrieved": "2026-11-13T00:26:02Z",
+ "n": 78,
+ "notes": {
+  "data_date": null,
+  "metric": "mean-score"
+ },
+ "records": [
+  {
+   "model": "Gemini 3 Pro (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "score": 60.9
+   },
+   "ci": {
+    "score": [
+     58.5,
+     63.3
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2025-11-18"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "score": 60.9
+   },
+   "ci": {
+    "score": [
+     58.6,
+     63.199999999999996
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2025-12-17"
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4",
+   "key": null,
+   "org": "xAI",
+   "metrics": {
+    "score": 57.1
+   },
+   "ci": {
+    "score": [
+     54.4,
+     59.800000000000004
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2025-07-09"
+   },
+   "flags": []
+  },
+  {
+   "model": "o3 (High)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 60.5
+   },
+   "ci": {
+    "score": [
+     58.0,
+     63.0
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2025-04-16"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 4.5 (High)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 57.3
+   },
+   "ci": {
+    "score": [
+     54.5,
+     60.099999999999994
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2025-11-24"
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.1",
+   "key": null,
+   "org": "xAI",
+   "metrics": {
+    "score": 57.5
+   },
+   "ci": {
+    "score": [
+     54.9,
+     60.1
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2025-12-11"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 4.6 (High)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 65.3
+   },
+   "ci": {
+    "score": [
+     62.699999999999996,
+     67.89999999999999
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-02-05"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-5.4 (High)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 63.2
+   },
+   "ci": {
+    "score": [
+     60.800000000000004,
+     65.60000000000001
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-03-05"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 4.6 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 65.8
+   },
+   "ci": {
+    "score": [
+     63.199999999999996,
+     68.39999999999999
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-02-05"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-5.3 Codex (High)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 65.9
+   },
+   "ci": {
+    "score": [
+     63.400000000000006,
+     68.4
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-02-25"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.1 Pro (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "score": 61.8
+   },
+   "ci": {
+    "score": [
+     59.3,
+     64.3
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-02-19"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 4.6 (High)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 55.1
+   },
+   "ci": {
+    "score": [
+     51.800000000000004,
+     58.4
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-02-17"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 66
+   },
+   "ci": {
+    "score": [
+     63.1,
+     68.9
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-06-09"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 4.7 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 62.2
+   },
+   "ci": {
+    "score": [
+     59.400000000000006,
+     65.0
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-04-16"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 49.6
+   },
+   "ci": {
+    "score": [
+     46.2,
+     53.0
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-06-30"
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-V3.2",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "score": 51.5
+   },
+   "ci": {
+    "score": [
+     48.8,
+     54.2
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2025-12-01"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 4.8 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 62.7
+   },
+   "ci": {
+    "score": [
+     59.7,
+     65.7
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-05-28"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.5 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "score": 62.2
+   },
+   "ci": {
+    "score": [
+     59.400000000000006,
+     65.0
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-05-19"
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-V4-Flash (Max)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "score": 63.8
+   },
+   "ci": {
+    "score": [
+     61.199999999999996,
+     66.39999999999999
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-07-31"
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-V4-Pro (Max)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "score": 59.7
+   },
+   "ci": {
+    "score": [
+     57.0,
+     62.400000000000006
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-04-23"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.6 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "score": 66
+   },
+   "ci": {
+    "score": [
+     63.5,
+     68.5
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-07-21"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-5.6 Terra (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 69.5
+   },
+   "ci": {
+    "score": [
+     67.1,
+     71.9
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-07-09"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM-5.2 (Max)",
+   "key": null,
+   "org": "Zhipu",
+   "metrics": {
+    "score": 61.5
+   },
+   "ci": {
+    "score": [
+     59.0,
+     64.0
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-06-16"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-OSS-120B (High)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 46.4
+   },
+   "ci": {
+    "score": [
+     43.699999999999996,
+     49.1
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2025-08-05"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemma 4 31B",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "score": 48.1
+   },
+   "ci": {
+    "score": [
+     45.4,
+     50.800000000000004
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-03-31"
+   },
+   "flags": []
+  },
+  {
+   "model": "Inkling (High)",
+   "key": null,
+   "org": "Thinking Machines",
+   "metrics": {
+    "score": 61.6
+   },
+   "ci": {
+    "score": [
+     58.9,
+     64.3
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-07-15"
+   },
+   "flags": []
+  },
+  {
+   "model": "Kimi K2.7 Code (High)",
+   "key": null,
+   "org": "Kimi",
+   "metrics": {
+    "score": 60.1
+   },
+   "ci": {
+    "score": [
+     57.6,
+     62.6
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": ""
+   },
+   "flags": []
+  },
+  {
+   "model": "Kimi K2 (High)",
+   "key": null,
+   "org": "Kimi",
+   "metrics": {
+    "score": 52.4
+   },
+   "ci": {
+    "score": [
+     49.9,
+     54.9
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2025-11-06"
+   },
+   "flags": []
+  },
+  {
+   "model": "MiniMax-M2.7 (High)",
+   "key": null,
+   "org": "MiniMax",
+   "metrics": {
+    "score": 45.8
+   },
+   "ci": {
+    "score": [
+     43.099999999999994,
+     48.5
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": ""
+   },
+   "flags": []
+  },
+  {
+   "model": "Nemotron 3 Ultra (High)",
+   "key": null,
+   "org": "NVIDIA",
+   "metrics": {
+    "score": 56.1
+   },
+   "ci": {
+    "score": [
+     53.5,
+     58.7
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-06-04"
+   },
+   "flags": []
+  },
+  {
+   "model": "MiniMax-M3 (High)",
+   "key": null,
+   "org": "MiniMax",
+   "metrics": {
+    "score": 59.8
+   },
+   "ci": {
+    "score": [
+     57.3,
+     62.3
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-06-01"
+   },
+   "flags": []
+  },
+  {
+   "model": "Kimi K3 (Max)",
+   "key": null,
+   "org": "Kimi",
+   "metrics": {
+    "score": 68.4
+   },
+   "ci": {
+    "score": [
+     66.10000000000001,
+     70.7
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-07-27"
+   },
+   "flags": []
+  },
+  {
+   "model": "Qwen3.5",
+   "key": null,
+   "org": "Alibaba",
+   "metrics": {
+    "score": 50.3
+   },
+   "ci": {
+    "score": [
+     47.8,
+     52.8
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-02-16"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 5 (xHigh)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 68.6
+   },
+   "ci": {
+    "score": [
+     65.69999999999999,
+     71.5
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-07-24"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (xHigh)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 69.3
+   },
+   "ci": {
+    "score": [
+     66.7,
+     71.89999999999999
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-09-03"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM-5.3 (Max)",
+   "key": null,
+   "org": "Zhipu",
+   "metrics": {
+    "score": 63
+   },
+   "ci": {
+    "score": [
+     60.1,
+     65.9
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-08-14"
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-V4-Pro-0813 (Max)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "score": 66
+   },
+   "ci": {
+    "score": [
+     63.5,
+     68.5
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-08-13"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark 1.3 (xHigh)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "score": 73.9
+   },
+   "ci": {
+    "score": [
+     71.60000000000001,
+     76.2
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-09-02"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "score": 68.8
+   },
+   "ci": {
+    "score": [
+     66.1,
+     71.5
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-09-02"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 73.8
+   },
+   "ci": {
+    "score": [
+     71.1,
+     76.5
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-09-01"
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.6 (xHigh)",
+   "key": null,
+   "org": "xAI",
+   "metrics": {
+    "score": 67.7
+   },
+   "ci": {
+    "score": [
+     65.2,
+     70.2
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-08-12"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-5.6 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 73.1
+   },
+   "ci": {
+    "score": [
+     70.69999999999999,
+     75.5
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-07-09"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-5.6 Luna (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 66.6
+   },
+   "ci": {
+    "score": [
+     64.1,
+     69.1
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-07-09"
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-V4.1-Flash (Max)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "score": 65.5
+   },
+   "ci": {
+    "score": [
+     62.9,
+     68.1
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-09-09"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM-5.3-Flash (Max)",
+   "key": null,
+   "org": "Zhipu",
+   "metrics": {
+    "score": 58.7
+   },
+   "ci": {
+    "score": [
+     55.6,
+     61.800000000000004
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-08-26"
+   },
+   "flags": []
+  },
+  {
+   "model": "Qwen3.8-Max (xHigh)",
+   "key": null,
+   "org": "Alibaba",
+   "metrics": {
+    "score": 65.3
+   },
+   "ci": {
+    "score": [
+     62.8,
+     67.8
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-08-02"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark 1.2 (xHigh)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "score": 75.6
+   },
+   "ci": {
+    "score": [
+     73.3,
+     77.89999999999999
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-08-05"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.5 Flash Lite (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "score": 54.7
+   },
+   "ci": {
+    "score": [
+     52.2,
+     57.2
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-08-31"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-5.4 (xHigh)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 65.6
+   },
+   "ci": {
+    "score": [
+     63.199999999999996,
+     68.0
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-03-05"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-5.5 (xHigh)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 68.4
+   },
+   "ci": {
+    "score": [
+     66.0,
+     70.80000000000001
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-04-23"
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.5 (High)",
+   "key": null,
+   "org": "xAI",
+   "metrics": {
+    "score": 61.8
+   },
+   "ci": {
+    "score": [
+     59.3,
+     64.3
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-07-08"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM-5.1",
+   "key": null,
+   "org": "Zhipu",
+   "metrics": {
+    "score": 52.4
+   },
+   "ci": {
+    "score": [
+     49.9,
+     54.9
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-03-27"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.7 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "score": 67
+   },
+   "ci": {
+    "score": [
+     64.4,
+     69.6
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-08-13"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark 1.1 (xHigh)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "score": 73.8
+   },
+   "ci": {
+    "score": [
+     71.6,
+     76.0
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-07-09"
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.7 (xHigh)",
+   "key": null,
+   "org": "xAI",
+   "metrics": {
+    "score": 65.4
+   },
+   "ci": {
+    "score": [
+     62.800000000000004,
+     68.0
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-09-21"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 62
+   },
+   "ci": {
+    "score": [
+     59.3,
+     64.7
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-09-22"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 65.8
+   },
+   "ci": {
+    "score": [
+     62.599999999999994,
+     69.0
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-09-22"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 63.6
+   },
+   "ci": {
+    "score": [
+     61.0,
+     66.2
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-09-22"
+   },
+   "flags": []
+  },
+  {
+   "model": "Qwen 3.8 27B (xHigh)",
+   "key": null,
+   "org": "Alibaba",
+   "metrics": {
+    "score": 62.6
+   },
+   "ci": {
+    "score": [
+     59.9,
+     65.3
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-08-03"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 53.9
+   },
+   "ci": {
+    "score": [
+     50.199999999999996,
+     57.6
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-09-28"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6.1 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 69.3
+   },
+   "ci": {
+    "score": [
+     66.7,
+     71.89999999999999
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-09-29"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark 1.3 (Max)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "score": 73
+   },
+   "ci": {
+    "score": [
+     70.7,
+     75.3
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-09-02"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Haiku 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 64.7
+   },
+   "ci": {
+    "score": [
+     62.1,
+     67.3
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-10-07"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-5.2 (High)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 64.7
+   },
+   "ci": {
+    "score": [
+     62.2,
+     67.2
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2025-12-11"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark Open (xHigh)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "score": 73.9
+   },
+   "ci": {
+    "score": [
+     71.60000000000001,
+     76.2
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": ""
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Argon (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "score": 81.1
+   },
+   "ci": {
+    "score": [
+     79.1,
+     83.1
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-09-30"
+   },
+   "flags": []
+  },
+  {
+   "model": "Beam (Max)",
+   "key": null,
+   "org": "Reflection",
+   "metrics": {
+    "score": 60.6
+   },
+   "ci": {
+    "score": [
+     58.0,
+     63.2
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-10-05"
+   },
+   "flags": []
+  },
+  {
+   "model": "Nemotron 3.5 Super VL (High)",
+   "key": null,
+   "org": "NVIDIA",
+   "metrics": {
+    "score": 57.6
+   },
+   "ci": {
+    "score": [
+     55.0,
+     60.2
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-10-14"
+   },
+   "flags": []
+  },
+  {
+   "model": "Mistral Large 4 (High)",
+   "key": null,
+   "org": "Mistral",
+   "metrics": {
+    "score": 59.6
+   },
+   "ci": {
+    "score": [
+     57.1,
+     62.1
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-10-06"
+   },
+   "flags": []
+  },
+  {
+   "model": "MiniMax-M3.1-Flash (Max)",
+   "key": null,
+   "org": "MiniMax",
+   "metrics": {
+    "score": 65
+   },
+   "ci": {
+    "score": [
+     62.4,
+     67.6
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": ""
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-V4.1-Flash-1017 (Max)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "score": 68.3
+   },
+   "ci": {
+    "score": [
+     65.8,
+     70.8
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": ""
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder 1.0 (Max)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "score": 75.1
+   },
+   "ci": {
+    "score": [
+     72.89999999999999,
+     77.3
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-10-12"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6.1 Terra (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 64.2
+   },
+   "ci": {
+    "score": [
+     61.5,
+     66.9
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-10-26"
+   },
+   "flags": []
+  },
+  {
+   "model": "Nemotron 3.5 Bolt (High)",
+   "key": null,
+   "org": "NVIDIA",
+   "metrics": {
+    "score": 52.7
+   },
+   "ci": {
+    "score": [
+     50.2,
+     55.2
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": ""
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Carbon (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "score": 80
+   },
+   "ci": {
+    "score": [
+     77.9,
+     82.1
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": ""
+   },
+   "flags": []
+  },
+  {
+   "model": "Kimi K3.1 Pro (Max)",
+   "key": null,
+   "org": "Kimi",
+   "metrics": {
+    "score": 69.3
+   },
+   "ci": {
+    "score": [
+     66.89999999999999,
+     71.7
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": ""
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Ember (Max)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "score": 70.4
+   },
+   "ci": {
+    "score": [
+     68.10000000000001,
+     72.7
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": "2026-11-09"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Hydrogen (xHigh)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "score": 76.9
+   },
+   "ci": {
+    "score": [
+     74.5,
+     79.30000000000001
+    ]
+   },
+   "attrs": {
+    "harness": "singleshot_agent",
+    "release_date": ""
+   },
+   "flags": []
+  }
+ ]
+}

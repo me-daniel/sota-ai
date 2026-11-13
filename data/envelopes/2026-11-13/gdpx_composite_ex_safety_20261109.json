@@ -1,0 +1,680 @@
+{
+ "extractor_version": "gdpx_fetch 1.0",
+ "source": "gdpx",
+ "category": "composite_ex_safety",
+ "page": "https://gdpx.semianalysis.com/",
+ "wayback_capture": null,
+ "retrieved": "2026-11-13T00:06:03Z",
+ "n": 21,
+ "notes": {
+  "updated_at": "2026-11-09",
+  "data_source": "final",
+  "domains": {
+   "rsi": "Recursive Self-Improvement",
+   "chip-design": "Chip Design",
+   "cybersecurity": "Cybersecurity",
+   "biology": "Biology",
+   "finance": "Finance",
+   "legal": "Legal",
+   "quant-trading": "Quant Trading",
+   "hardware-design": "Hardware Design",
+   "materials-science": "Materials Science",
+   "alignment": "Alignment",
+   "software-engineering": "Software Engineering"
+  },
+  "unit": "percent of task credit, mean of 3 attempts"
+ },
+ "records": [
+  {
+   "model": "Claude Fable 5.2 (Max)",
+   "key": "claude-fable-5-2",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 16.76,
+    "partial_score": 29.8846,
+    "cost_per_task": 109.4729,
+    "tokens_per_task": 1507162.9805,
+    "tasks": 157,
+    "tasks_scored": 157,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder Full",
+   "key": "muse-wonder-full",
+   "org": "Meta",
+   "metrics": {
+    "score": 6.1794,
+    "partial_score": 16.7748,
+    "cost_per_task": null,
+    "tokens_per_task": 239108.5935,
+    "tasks": 157,
+    "tasks_scored": 155,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Muse Code",
+    "reasoning": "Highest",
+    "open_weights": false,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 5.5 (Max)",
+   "key": "claude-opus-5-5",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 11.7329,
+    "partial_score": 24.9002,
+    "cost_per_task": 64.2354,
+    "tokens_per_task": 651836.8025,
+    "tasks": 157,
+    "tasks_scored": 157,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna (Max)",
+   "key": "gpt-6-luna",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 2.746,
+    "partial_score": 8.8177,
+    "cost_per_task": 1.1405,
+    "tokens_per_task": 532267.7484,
+    "tasks": 157,
+    "tasks_scored": 156,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (Max)",
+   "key": "gpt-6-astra",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 11.7877,
+    "partial_score": 24.3271,
+    "cost_per_task": 61.3421,
+    "tokens_per_task": 313129.6581,
+    "tasks": 157,
+    "tasks_scored": 157,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Argon (High)",
+   "key": "gemini-4-argon",
+   "org": "Google",
+   "metrics": {
+    "score": 5.4492,
+    "partial_score": 12.7171,
+    "cost_per_task": 15.2857,
+    "tokens_per_task": 428054.6387,
+    "tasks": 157,
+    "tasks_scored": 155,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Antigravity",
+    "reasoning": "High",
+    "open_weights": false,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT 6.1 Sol (Max)",
+   "key": "gpt-6-1-sol",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 10.6369,
+    "partial_score": 23.4027,
+    "cost_per_task": 11.153,
+    "tokens_per_task": 401411.6774,
+    "tasks": 157,
+    "tasks_scored": 156,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5.5 (Max)",
+   "key": "claude-sonnet-5-5",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 9.6558,
+    "partial_score": 20.7417,
+    "cost_per_task": 57.3891,
+    "tokens_per_task": 1200097.3631,
+    "tasks": 157,
+    "tasks_scored": 157,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "Inkling",
+   "key": "inkling",
+   "org": "Thinking Machines",
+   "metrics": {
+    "score": 2.1106,
+    "partial_score": 5.4381,
+    "cost_per_task": 7.3932,
+    "tokens_per_task": 61870.0258,
+    "tasks": 157,
+    "tasks_scored": 156,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "OpenCode",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Carbon (High)",
+   "key": "gemini-4-carbon",
+   "org": "Google",
+   "metrics": {
+    "score": 9.2319,
+    "partial_score": 19.3192,
+    "cost_per_task": 19.7278,
+    "tokens_per_task": 718983.9481,
+    "tasks": 157,
+    "tasks_scored": 154,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Antigravity",
+    "reasoning": "High",
+    "open_weights": false,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Haiku 5.5 (Max)",
+   "key": "claude-haiku-5-5",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 4.4565,
+    "partial_score": 11.5994,
+    "cost_per_task": 5.0309,
+    "tokens_per_task": 864132.3462,
+    "tasks": 157,
+    "tasks_scored": 157,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder",
+   "key": "muse-wonder",
+   "org": "Meta",
+   "metrics": {
+    "score": 3.9519,
+    "partial_score": 12.2996,
+    "cost_per_task": 16.8513,
+    "tokens_per_task": 227974.8961,
+    "tasks": 157,
+    "tasks_scored": 155,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Muse Code",
+    "reasoning": "Highest",
+    "open_weights": false,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1 (Max)",
+   "key": "claude-fable-5-1",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 8.55,
+    "partial_score": 18.1615,
+    "cost_per_task": 81.386,
+    "tokens_per_task": 478114.0382,
+    "tasks": 157,
+    "tasks_scored": 157,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT 6.1 Terra (Max)",
+   "key": "gpt-6-1-terra",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 9.9444,
+    "partial_score": 20.6371,
+    "cost_per_task": 17.4501,
+    "tokens_per_task": 634780.1097,
+    "tasks": 157,
+    "tasks_scored": 156,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.7 (xHigh)",
+   "key": "grok-4-7",
+   "org": "xAI",
+   "metrics": {
+    "score": 2.3952,
+    "partial_score": 10.3069,
+    "cost_per_task": 16.1559,
+    "tokens_per_task": 148764.4551,
+    "tasks": 157,
+    "tasks_scored": 156,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Grok Build",
+    "reasoning": "xHigh",
+    "open_weights": false,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark Open",
+   "key": "muse-spark-open",
+   "org": "Meta",
+   "metrics": {
+    "score": 0.6125,
+    "partial_score": 2.825,
+    "cost_per_task": 5.0741,
+    "tokens_per_task": 231220.4934,
+    "tasks": 157,
+    "tasks_scored": 153,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Muse Code",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek 4.1 Flash 1017",
+   "key": "deepseek-4-1-flash",
+   "org": "DeepSeek",
+   "metrics": {
+    "score": 3.7294,
+    "partial_score": 9.7033,
+    "cost_per_task": 0.9757,
+    "tokens_per_task": 261458.5742,
+    "tasks": 157,
+    "tasks_scored": 156,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "DeepSeek Harness",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "Kimi K3",
+   "key": "kimi-k3",
+   "org": "Moonshot AI",
+   "metrics": {
+    "score": 3.059,
+    "partial_score": 8.7227,
+    "cost_per_task": 34.8662,
+    "tokens_per_task": 295808.6474,
+    "tasks": 157,
+    "tasks_scored": 156,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Kimi Code",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "MiniMax M3.1 Flash",
+   "key": "minimax-m3-1-flash",
+   "org": "MiniMax",
+   "metrics": {
+    "score": 3.6206,
+    "partial_score": 8.3781,
+    "cost_per_task": 1.8965,
+    "tokens_per_task": 317608.1026,
+    "tasks": 157,
+    "tasks_scored": 157,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "MCode",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "Qwen 3.8 Max",
+   "key": "qwen-3-8-max",
+   "org": "Alibaba",
+   "metrics": {
+    "score": 3.1979,
+    "partial_score": 9.895,
+    "cost_per_task": 13.8958,
+    "tokens_per_task": 444245.7821,
+    "tasks": 157,
+    "tasks_scored": 157,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "OpenCode",
+    "reasoning": "Highest",
+    "open_weights": false,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM 5.3 (Max)",
+   "key": "glm-5-3",
+   "org": "Z.ai",
+   "metrics": {
+    "score": 2.7723,
+    "partial_score": 8.9183,
+    "cost_per_task": 13.8697,
+    "tokens_per_task": 241325.5513,
+    "tasks": 157,
+    "tasks_scored": 156,
+    "domains_scored": 8
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "ZCode",
+    "reasoning": "Max",
+    "open_weights": true,
+    "domains": [
+     "rsi",
+     "chip-design",
+     "finance",
+     "legal",
+     "quant-trading",
+     "hardware-design",
+     "materials-science",
+     "software-engineering"
+    ]
+   },
+   "flags": []
+  }
+ ]
+}

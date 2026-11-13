@@ -1,0 +1,663 @@
+{
+ "extractor_version": "web_sources 1.0",
+ "source": "scale_seal",
+ "category": "multichallenge",
+ "page": "https://labs.scale.com/leaderboard/multichallenge",
+ "wayback_capture": null,
+ "retrieved": "2026-11-13T00:26:01Z",
+ "n": 36,
+ "notes": {
+  "data_date": "2026-10-27",
+  "variant": "large"
+ },
+ "records": [
+  {
+   "model": "gpt 6.1 Sol",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 81.95
+   },
+   "ci": {
+    "score": [
+     77.79,
+     86.11
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Argon",
+   "key": null,
+   "org": "google",
+   "metrics": {
+    "score": 78.7
+   },
+   "ci": {
+    "score": [
+     73.4,
+     84.0
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-21T21:11:54.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark",
+   "key": null,
+   "org": "meta",
+   "metrics": {
+    "score": 75.52
+   },
+   "ci": {
+    "score": [
+     71.47,
+     79.57
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark 1.1",
+   "key": null,
+   "org": "meta",
+   "metrics": {
+    "score": 75.3
+   },
+   "ci": {
+    "score": [
+     74.7,
+     75.89999999999999
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Deepseek V4p1 Flash 1017",
+   "key": null,
+   "org": "deepseek",
+   "metrics": {
+    "score": 74.9
+   },
+   "ci": {
+    "score": [
+     69.60000000000001,
+     80.2
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-26T19:20:28.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT 6.1 Terra",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 74.2
+   },
+   "ci": {
+    "score": [
+     68.8,
+     79.60000000000001
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-27T17:29:39.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark Open",
+   "key": null,
+   "org": "meta",
+   "metrics": {
+    "score": 74.2
+   },
+   "ci": {
+    "score": [
+     68.60000000000001,
+     79.8
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-21T22:00:14.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gemini 3.1 pro preview",
+   "key": null,
+   "org": "google",
+   "metrics": {
+    "score": 71.37
+   },
+   "ci": {
+    "score": [
+     69.63340000000001,
+     73.1066
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gpt 5.4 pro 2026.03.05",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 69.23
+   },
+   "ci": {
+    "score": [
+     66.1787,
+     72.2813
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Haiku 5.5",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 67.67
+   },
+   "ci": {
+    "score": [
+     62.33,
+     73.01
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-08T21:05:53.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gemini 3 pro preview",
+   "key": null,
+   "org": "google",
+   "metrics": {
+    "score": 65.67
+   },
+   "ci": {
+    "score": [
+     63.4733,
+     67.86670000000001
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gpt 5.1 2025.11.13 thinking",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 63.41
+   },
+   "ci": {
+    "score": [
+     61.3043,
+     65.5157
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gpt 5 thinking",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 63.19
+   },
+   "ci": {
+    "score": [
+     61.5603,
+     64.8197
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "o3 pro 2025.06.10 reasoning (High)",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 62.4
+   },
+   "ci": {
+    "score": [
+     59.9079,
+     64.8921
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "kimi k2.5",
+   "key": null,
+   "org": "moonshot",
+   "metrics": {
+    "score": 61.39
+   },
+   "ci": {
+    "score": [
+     60.9265,
+     61.853500000000004
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gemini 3.1 flash lite preview",
+   "key": null,
+   "org": "google",
+   "metrics": {
+    "score": 60.61
+   },
+   "ci": {
+    "score": [
+     60.2305,
+     60.9895
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gpt 5 mini thinking",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 58.99
+   },
+   "ci": {
+    "score": [
+     54.9212,
+     63.058800000000005
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "claude opus 4.5 20251101 thinking",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 58.97
+   },
+   "ci": {
+    "score": [
+     58.5471,
+     59.3929
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "claude 4 opus thinking",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 58.62
+   },
+   "ci": {
+    "score": [
+     57.8488,
+     59.3912
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "claude opus 4.1 20250805 thinking",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 57.2
+   },
+   "ci": {
+    "score": [
+     56.248000000000005,
+     58.152
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "claude 4 sonnet thinking",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 57.11
+   },
+   "ci": {
+    "score": [
+     56.3043,
+     57.9157
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "o3 2025.04.16 reasoning (High)",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 56.62
+   },
+   "ci": {
+    "score": [
+     53.2988,
+     59.941199999999995
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "claude-opus-4-6 (Non-Thinking)",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 56.02
+   },
+   "ci": {
+    "score": [
+     54.940000000000005,
+     57.1
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "kimi k2 thinking",
+   "key": null,
+   "org": "moonshot",
+   "metrics": {
+    "score": 55.42
+   },
+   "ci": {
+    "score": [
+     53.543,
+     57.297000000000004
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "claude sonnet 4.5 20250929 thinking",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 55.32
+   },
+   "ci": {
+    "score": [
+     53.8454,
+     56.7946
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gemini 2.5 pro",
+   "key": null,
+   "org": "google",
+   "metrics": {
+    "score": 53.62
+   },
+   "ci": {
+    "score": [
+     52.3022,
+     54.937799999999996
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "claude 3.7 sonnet thinking",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 51.58
+   },
+   "ci": {
+    "score": [
+     48.5145,
+     54.6455
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gpt 5.1 2025.11.13 instant",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 51.23
+   },
+   "ci": {
+    "score": [
+     49.4409,
+     53.019099999999995
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "claude haiku 4.5 20251001 thinking",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 50.49
+   },
+   "ci": {
+    "score": [
+     48.454,
+     52.526
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "deepseek v3p1",
+   "key": null,
+   "org": "deepseek",
+   "metrics": {
+    "score": 46.1
+   },
+   "ci": {
+    "score": [
+     44.99,
+     47.21
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gpt oss 120b",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 45.34
+   },
+   "ci": {
+    "score": [
+     43.188100000000006,
+     47.4919
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "o4 mini 2025.04.16 reasoning (High)",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 44.9
+   },
+   "ci": {
+    "score": [
+     44.017199999999995,
+     45.7828
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "qwen3 235b a22b",
+   "key": null,
+   "org": "alibaba",
+   "metrics": {
+    "score": 41.22
+   },
+   "ci": {
+    "score": [
+     39.4297,
+     43.0103
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gpt 4.1",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 39.43
+   },
+   "ci": {
+    "score": [
+     38.4907,
+     40.3693
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "claude opus 4.6 thinking (Max)",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 37.15
+   },
+   "ci": {
+    "score": [
+     34.989999999999995,
+     39.31
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gemini 2.0 flash",
+   "key": null,
+   "org": "google",
+   "metrics": {
+    "score": 36.35
+   },
+   "ci": {
+    "score": [
+     35.573100000000004,
+     37.1269
+    ]
+   },
+   "attrs": {
+    "created": "2026-10-07T17:38:26.000Z"
+   },
+   "flags": []
+  }
+ ]
+}

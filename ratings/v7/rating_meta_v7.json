@@ -1,0 +1,260 @@
+{
+ "today": "2026-11-13",
+ "population": 237,
+ "superseded": 7,
+ "cutoff": "2025-11-13",
+ "calibration": {
+  "v4.3.2\u2192v5": {
+   "deg": 1,
+   "n": 37,
+   "range": [
+    4.8,
+    57.6
+   ],
+   "rmse": 5.11
+  },
+  "progress\u2192v4.3.2": {
+   "deg": 1,
+   "n": 189,
+   "range": [
+    66.2,
+    350.5
+   ],
+   "rmse": 6.18
+  }
+ },
+ "method": {
+  "overall": {
+   "how": "general fit",
+   "weights": {
+    "aa": 3.205,
+    "epoch": 1.923,
+    "vals": 1.923,
+    "lm_cw": 0.641,
+    "lm_if": 0.641,
+    "ag_code": 1.026,
+    "ag_work": 1.026,
+    "gdpx": 1.282,
+    "tbench": 1.026,
+    "swe_atlas": 0.641,
+    "apex_swe": 0.513,
+    "weirdml": 0.641,
+    "lech": 0.641,
+    "multichallenge": 0.513,
+    "matharena": 1.026,
+    "simplebench": 0.513,
+    "hle": 0.641,
+    "apex_agents": 1.026,
+    "apex_v1": 0.513,
+    "rli": 0.641
+   },
+   "org_mass": {
+    "Artificial Analysis": 0.16,
+    "Epoch AI": 0.096,
+    "LMArena": 0.167,
+    "Laude Institute": 0.051,
+    "Lech Mazur": 0.032,
+    "MathArena (ETH SRI)": 0.051,
+    "Mercor": 0.103,
+    "Scale AI": 0.122,
+    "SemiAnalysis": 0.064,
+    "SimpleBench": 0.026,
+    "Vals AI": 0.096,
+    "WeirdML (htihle)": 0.032
+   },
+   "reliability": {
+    "aa": 0.895,
+    "epoch": 0.961,
+    "vals": 0.891,
+    "lm_cw": 0.446,
+    "lm_if": 0.509,
+    "ag_code": 0.968,
+    "ag_work": 0.979,
+    "gdpx": 0.925,
+    "tbench": 0.9,
+    "swe_atlas": 0.829,
+    "apex_swe": 0.757,
+    "weirdml": 0.866,
+    "lech": 0.684,
+    "multichallenge": 0.38,
+    "matharena": 0.885,
+    "simplebench": 0.694,
+    "hle": 0.864,
+    "apex_agents": 0.774,
+    "apex_v1": 0.488,
+    "rli": 0.907
+   }
+  },
+  "coding": {
+   "how": "own fit (40 models with \u22653 sources)",
+   "weights": {
+    "aa": 1.588,
+    "epoch": 0.529,
+    "vals": 1.059,
+    "ag_code": 1.324,
+    "gdpx_swe": 0.529,
+    "tbench": 1.324,
+    "swe_atlas": 1.059,
+    "apex_swe": 0.794,
+    "weirdml": 0.794
+   },
+   "org_mass": {
+    "Artificial Analysis": 0.176,
+    "Epoch AI": 0.059,
+    "LMArena": 0.147,
+    "Laude Institute": 0.147,
+    "Mercor": 0.088,
+    "Scale AI": 0.118,
+    "SemiAnalysis": 0.059,
+    "Vals AI": 0.118,
+    "WeirdML (htihle)": 0.088
+   },
+   "reliability": {
+    "aa": 0.917,
+    "epoch": 0.941,
+    "vals": 0.896,
+    "ag_code": 0.932,
+    "gdpx_swe": 0.758,
+    "tbench": 0.901,
+    "swe_atlas": 0.826,
+    "apex_swe": 0.753,
+    "weirdml": 0.846
+   }
+  },
+  "writing": {
+   "how": "general fit (24 models with \u22653 of its sources < 25)",
+   "weights": {
+    "aa": 0.646,
+    "lm_cw": 1.4,
+    "lm_if": 0.6,
+    "ag_chat": 0.8,
+    "slop": 0.646,
+    "lech": 1.938,
+    "multichallenge": 0.969
+   },
+   "org_mass": {
+    "Artificial Analysis": 0.185,
+    "LMArena": 0.4,
+    "Lech Mazur": 0.277,
+    "Scale AI": 0.138
+   },
+   "reliability": {
+    "aa": 0.895,
+    "lm_cw": 0.446,
+    "lm_if": 0.509,
+    "ag_chat": 0.915,
+    "slop": 0.361,
+    "lech": 0.684,
+    "multichallenge": 0.38
+   }
+  },
+  "reasoning": {
+   "how": "own fit (41 models with \u22653 sources)",
+   "weights": {
+    "aa": 1.806,
+    "epoch": 1.806,
+    "vals": 0.774,
+    "vals_sci": 0.516,
+    "syc": 0.258,
+    "matharena": 1.29,
+    "simplebench": 0.516,
+    "hle": 1.032
+   },
+   "org_mass": {
+    "Artificial Analysis": 0.258,
+    "Epoch AI": 0.226,
+    "MathArena (ETH SRI)": 0.161,
+    "Scale AI": 0.129,
+    "SimpleBench": 0.065,
+    "Vals AI": 0.161
+   },
+   "reliability": {
+    "aa": 0.895,
+    "epoch": 0.965,
+    "vals": 0.796,
+    "vals_sci": 0.968,
+    "syc": 0.0,
+    "matharena": 0.854,
+    "simplebench": 0.684,
+    "hle": 0.892
+   }
+  },
+  "professional": {
+   "how": "own fit (64 models with \u22653 sources)",
+   "weights": {
+    "aa": 0.941,
+    "vals": 1.412,
+    "ag_work": 1.176,
+    "gdpx": 1.412,
+    "syc": 0.235,
+    "apex_agents": 1.176,
+    "apex_v1": 0.706,
+    "rli": 0.941
+   },
+   "org_mass": {
+    "Artificial Analysis": 0.147,
+    "LMArena": 0.147,
+    "Mercor": 0.235,
+    "Scale AI": 0.118,
+    "SemiAnalysis": 0.176,
+    "Vals AI": 0.176
+   },
+   "reliability": {
+    "aa": 0.954,
+    "vals": 0.921,
+    "ag_work": 0.914,
+    "gdpx": 0.881,
+    "syc": 0.03,
+    "apex_agents": 0.802,
+    "apex_v1": 0.443,
+    "rli": 0.846
+   }
+  }
+ },
+ "data_dates": {
+  "aa_leaderboard": "2026-10-28",
+  "aa_leaderboard/wayback": "2026-10-28",
+  "aa_personality": "2026-10-26",
+  "aa_trends": "2026-10-28",
+  "arena_agent": "2026-10-23",
+  "epoch_eci": "2026-10-25",
+  "gdpx": "2026-11-13",
+  "lechmazur_writing": "2026-11-13",
+  "lmarena_text": "2026-10-23",
+  "matharena": "2026-11-13",
+  "mercor_apex": "2026-11-13",
+  "scale_seal": "2026-11-13",
+  "simplebench": "2026-11-13",
+  "tbench": "2026-11-13",
+  "vals": "2026-10-24",
+  "weirdml": "2026-11-13"
+ },
+ "fit_sources": {
+  "aa": 231,
+  "epoch": 18,
+  "vals": 19,
+  "vals_sci": 14,
+  "lm_cw": 18,
+  "lm_if": 18,
+  "ag_code": 21,
+  "ag_chat": 21,
+  "ag_work": 21,
+  "gdpx": 20,
+  "gdpx_swe": 20,
+  "slop": 20,
+  "syc": 20,
+  "tbench": 23,
+  "swe_atlas": 25,
+  "apex_swe": 57,
+  "weirdml": 26,
+  "lech": 40,
+  "multichallenge": 14,
+  "matharena": 50,
+  "simplebench": 49,
+  "hle": 19,
+  "apex_agents": 61,
+  "apex_v1": 64,
+  "rli": 12
+ },
+ "unregistered": []
+}

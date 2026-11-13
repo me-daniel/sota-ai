@@ -1,0 +1,248 @@
+{
+ "extractor_version": "import_legacy 1.0",
+ "source": "epoch_eci",
+ "category": "eci",
+ "page": "https://epoch.ai/eci",
+ "wayback_capture": null,
+ "retrieved": "2026-10-25T00:00:00Z",
+ "n": 18,
+ "notes": {
+  "imported_from": "model_ratings_v6.xlsx"
+ },
+ "records": [
+  {
+   "model": "Claude Opus 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "eci": 168.83
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "eci": 166.18
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "eci": 166.49
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Haiku 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "eci": 159.32
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "eci": 168.81
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6.1 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "eci": 168.37
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "eci": 156.75
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Argon (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "eci": 166.45
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "eci": 157.44
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder (Max)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "eci": 161.85
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.7 (xHigh)",
+   "key": null,
+   "org": "SpaceXAI",
+   "metrics": {
+    "eci": 154.37
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek V4.1 Flash 1017 (Max)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "eci": 155.93
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM-5.3 (Max)",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "eci": 155.99
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Qwen3.8 Max (0902)",
+   "key": null,
+   "org": "Alibaba",
+   "metrics": {
+    "eci": 155.08
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "eci": 163.73
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark 1.3 (Max)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "eci": 157.21
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM-5.3-Flash (Default)",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "eci": 153.08
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark Open (xHigh)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "eci": 155.11
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Unverified"
+   },
+   "flags": []
+  }
+ ]
+}

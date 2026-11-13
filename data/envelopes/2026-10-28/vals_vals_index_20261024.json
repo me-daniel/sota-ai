@@ -1,0 +1,381 @@
+{
+ "extractor_version": "import_legacy 1.0",
+ "source": "vals",
+ "category": "vals_index",
+ "page": "https://www.vals.ai/benchmarks/vals_index",
+ "wayback_capture": null,
+ "retrieved": "2026-10-24T00:00:00Z",
+ "n": 19,
+ "notes": {
+  "imported_from": "model_ratings_v6.xlsx"
+ },
+ "records": [
+  {
+   "model": "Claude Opus 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 70.18,
+    "component.Finance Agent": 67.8,
+    "component.EMB": 75.8,
+    "component.Terminal-Bench 4": 65.2,
+    "component.Vibe Code": 90.3,
+    "component.Code Migration": 80.5,
+    "component.Legal Research": 50.5,
+    "component.HLAB": 9.2,
+    "component.Tax": 45.6
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 70.85,
+    "component.Finance Agent": 67.3,
+    "component.EMB": 75.9,
+    "component.Terminal-Bench 4": 64.1,
+    "component.Vibe Code": 92.4,
+    "component.Code Migration": 87.4,
+    "component.Legal Research": 48.1,
+    "component.HLAB": 10.4,
+    "component.Tax": 42
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Haiku 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 58.71,
+    "component.Finance Agent": 65.4,
+    "component.EMB": 65.5,
+    "component.Terminal-Bench 4": 36.4,
+    "component.Vibe Code": 90.4,
+    "component.Code Migration": 50.2,
+    "component.Legal Research": 43.3,
+    "component.HLAB": 4.2,
+    "component.Tax": 31.9
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 65.02,
+    "component.Finance Agent": 60.4,
+    "component.EMB": 72.7,
+    "component.Terminal-Bench 4": 59.6,
+    "component.Vibe Code": 89.6,
+    "component.Code Migration": 78,
+    "component.Legal Research": 39.4,
+    "component.HLAB": 7.1,
+    "component.Tax": 20.7
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6.1 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 63.94,
+    "component.Finance Agent": 61.8,
+    "component.EMB": 71.1,
+    "component.Terminal-Bench 4": 55.1,
+    "component.Vibe Code": 88.9,
+    "component.Code Migration": 75.1,
+    "component.Legal Research": 38.5,
+    "component.HLAB": 6.3,
+    "component.Tax": 21.8
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 52.32
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Argon (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "accuracy": 69.24,
+    "component.Finance Agent": 67.7,
+    "component.EMB": 74.8,
+    "component.Terminal-Bench 4": 57.6,
+    "component.Vibe Code": 91.9,
+    "component.Code Migration": 74.4,
+    "component.Legal Research": 54.8,
+    "component.HLAB": 27.1,
+    "component.Tax": 44.6
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "accuracy": 55.95,
+    "component.Finance Agent": 65.8,
+    "component.EMB": 72.9,
+    "component.Terminal-Bench 4": 19.7,
+    "component.Vibe Code": 78.7,
+    "component.Code Migration": 38.2,
+    "component.Legal Research": 38.9,
+    "component.HLAB": 12.1,
+    "component.Tax": 32.1
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder Full (Max)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "accuracy": 66.79,
+    "component.Finance Agent": 67.6,
+    "component.EMB": 75,
+    "component.Terminal-Bench 4": 58.1,
+    "component.Vibe Code": 86,
+    "component.Code Migration": 61.7,
+    "component.Legal Research": 53.4,
+    "component.HLAB": 23.3,
+    "component.Tax": 43
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder (Max)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "accuracy": 64.88,
+    "component.Finance Agent": 65.5,
+    "component.EMB": 72.5,
+    "component.Terminal-Bench 4": 49.5,
+    "component.Vibe Code": 83.1,
+    "component.Code Migration": 69.8,
+    "component.Legal Research": 50.5,
+    "component.HLAB": 23.8,
+    "component.Tax": 36.3
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.7 (xHigh)",
+   "key": null,
+   "org": "SpaceXAI",
+   "metrics": {
+    "accuracy": 58.56,
+    "component.Finance Agent": 60.6,
+    "component.EMB": 71.5,
+    "component.Terminal-Bench 4": 28.8,
+    "component.Vibe Code": 86.2,
+    "component.Code Migration": 51.8,
+    "component.Legal Research": 47.1,
+    "component.HLAB": 18.3,
+    "component.Tax": 34.2
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Kimi K3.1 Pro (Default)",
+   "key": null,
+   "org": "Moonshot",
+   "metrics": {
+    "accuracy": 62.52,
+    "component.Finance Agent": 61.5,
+    "component.EMB": 70,
+    "component.Terminal-Bench 4": 63.6,
+    "component.Vibe Code": 84.9,
+    "component.Code Migration": 59.7,
+    "component.Legal Research": 37.5,
+    "component.HLAB": 11.7,
+    "component.Tax": 24.9
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek V4.1 Flash 1017 (Max)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "accuracy": 61.26,
+    "component.Finance Agent": 62.9,
+    "component.EMB": 69.2,
+    "component.Terminal-Bench 4": 31.8,
+    "component.Vibe Code": 87.7,
+    "component.Code Migration": 68.5,
+    "component.Legal Research": 45.2,
+    "component.HLAB": 14.2,
+    "component.Tax": 44.4
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM-5.3 (Max)",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "accuracy": 59.73,
+    "component.Finance Agent": 65,
+    "component.EMB": 69.1,
+    "component.Terminal-Bench 4": 38.9,
+    "component.Vibe Code": 78.1,
+    "component.Code Migration": 54.1,
+    "component.Legal Research": 49,
+    "component.HLAB": 14.6,
+    "component.Tax": 39.7
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "MiMo-V2.6-Pro (Default)",
+   "key": null,
+   "org": "Xiaomi",
+   "metrics": {
+    "accuracy": 57.81,
+    "component.Finance Agent": 64.3,
+    "component.EMB": 67.3,
+    "component.Terminal-Bench 4": 31.3,
+    "component.Vibe Code": 85.2,
+    "component.Code Migration": 47.1,
+    "component.Legal Research": 47.1,
+    "component.HLAB": 13.8,
+    "component.Tax": 32.4
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Qwen3.8 Max (0902)",
+   "key": null,
+   "org": "Alibaba",
+   "metrics": {
+    "accuracy": 59.05,
+    "component.Finance Agent": 58.8,
+    "component.EMB": 72,
+    "component.Terminal-Bench 4": 38.9,
+    "component.Vibe Code": 77.1,
+    "component.Code Migration": 54.5,
+    "component.Legal Research": 46.2,
+    "component.HLAB": 15.4,
+    "component.Tax": 49.7
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "MiMo-V2.6-Flash (Default)",
+   "key": null,
+   "org": "Xiaomi",
+   "metrics": {
+    "accuracy": 54.83
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM-5.3-Flash (Default)",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "accuracy": 50.86
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark Open (xHigh)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "accuracy": 48.57
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Unverified"
+   },
+   "flags": []
+  }
+ ]
+}

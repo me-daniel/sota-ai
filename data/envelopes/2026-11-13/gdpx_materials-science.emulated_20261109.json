@@ -1,0 +1,491 @@
+{
+ "extractor_version": "gdpx_fetch 1.0",
+ "source": "gdpx",
+ "category": "materials-science.emulated",
+ "page": "https://gdpx.semianalysis.com/",
+ "wayback_capture": null,
+ "retrieved": "2026-11-13T00:06:03Z",
+ "n": 21,
+ "notes": {
+  "updated_at": "2026-11-09",
+  "data_source": "final",
+  "domains": {
+   "rsi": "Recursive Self-Improvement",
+   "chip-design": "Chip Design",
+   "cybersecurity": "Cybersecurity",
+   "biology": "Biology",
+   "finance": "Finance",
+   "legal": "Legal",
+   "quant-trading": "Quant Trading",
+   "hardware-design": "Hardware Design",
+   "materials-science": "Materials Science",
+   "alignment": "Alignment",
+   "software-engineering": "Software Engineering"
+  },
+  "unit": "percent of task credit, mean of 3 attempts"
+ },
+ "records": [
+  {
+   "model": "Gemini 4 Carbon (High)",
+   "key": "gemini-4-carbon",
+   "org": "Google",
+   "metrics": {
+    "score": 26.17,
+    "partial_score": 24.32,
+    "cost_per_task": 10.71,
+    "tokens_per_task": 481585,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Antigravity",
+    "reasoning": "High",
+    "open_weights": false,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.2 (Max)",
+   "key": "claude-fable-5-2",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 25.07,
+    "partial_score": 30.83,
+    "cost_per_task": 66.63,
+    "tokens_per_task": 906075,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT 6.1 Sol (Max)",
+   "key": "gpt-6-1-sol",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 17.98,
+    "partial_score": 23.25,
+    "cost_per_task": 12.66,
+    "tokens_per_task": 480425,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (Max)",
+   "key": "gpt-6-astra",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 16.51,
+    "partial_score": 21.27,
+    "cost_per_task": 31.24,
+    "tokens_per_task": 173394,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 5.5 (Max)",
+   "key": "claude-opus-5-5",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 16.37,
+    "partial_score": 21.45,
+    "cost_per_task": 18.97,
+    "tokens_per_task": 288797,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT 6.1 Terra (Max)",
+   "key": "gpt-6-1-terra",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 15.98,
+    "partial_score": 19.92,
+    "cost_per_task": 16.03,
+    "tokens_per_task": 563644,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5.5 (Max)",
+   "key": "claude-sonnet-5-5",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 15.13,
+    "partial_score": 19.09,
+    "cost_per_task": 24.65,
+    "tokens_per_task": 526857,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1 (Max)",
+   "key": "claude-fable-5-1",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 11.99,
+    "partial_score": 15.66,
+    "cost_per_task": 39.41,
+    "tokens_per_task": 192209,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder Full",
+   "key": "muse-wonder-full",
+   "org": "Meta",
+   "metrics": {
+    "score": 11.95,
+    "partial_score": 15.3,
+    "cost_per_task": null,
+    "tokens_per_task": 263145,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Muse Code",
+    "reasoning": "Highest",
+    "open_weights": false,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder",
+   "key": "muse-wonder",
+   "org": "Meta",
+   "metrics": {
+    "score": 10.83,
+    "partial_score": 14.23,
+    "cost_per_task": 16.27,
+    "tokens_per_task": 245381,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Muse Code",
+    "reasoning": "Highest",
+    "open_weights": false,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Argon (High)",
+   "key": "gemini-4-argon",
+   "org": "Google",
+   "metrics": {
+    "score": 10.42,
+    "partial_score": 15.02,
+    "cost_per_task": 12.77,
+    "tokens_per_task": 443604,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Antigravity",
+    "reasoning": "High",
+    "open_weights": false,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna (Max)",
+   "key": "gpt-6-luna",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 9.17,
+    "partial_score": 11.97,
+    "cost_per_task": 0.73,
+    "tokens_per_task": 341966,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.7 (xHigh)",
+   "key": "grok-4-7",
+   "org": "xAI",
+   "metrics": {
+    "score": 8.83,
+    "partial_score": 11.16,
+    "cost_per_task": 11.05,
+    "tokens_per_task": 100118,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Grok Build",
+    "reasoning": "xHigh",
+    "open_weights": false,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Haiku 5.5 (Max)",
+   "key": "claude-haiku-5-5",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 8.7,
+    "partial_score": 11.67,
+    "cost_per_task": 1.05,
+    "tokens_per_task": 342425,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "Kimi K3",
+   "key": "kimi-k3",
+   "org": "Moonshot AI",
+   "metrics": {
+    "score": 8.2,
+    "partial_score": 10.37,
+    "cost_per_task": 26.48,
+    "tokens_per_task": 280495,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Kimi Code",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "Qwen 3.8 Max",
+   "key": "qwen-3-8-max",
+   "org": "Alibaba",
+   "metrics": {
+    "score": 6.1,
+    "partial_score": 8.94,
+    "cost_per_task": 9.55,
+    "tokens_per_task": 357957,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "OpenCode",
+    "reasoning": "Highest",
+    "open_weights": false,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM 5.3 (Max)",
+   "key": "glm-5-3",
+   "org": "Z.ai",
+   "metrics": {
+    "score": 5.59,
+    "partial_score": 7.2,
+    "cost_per_task": 7.54,
+    "tokens_per_task": 204639,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "ZCode",
+    "reasoning": "Max",
+    "open_weights": true,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek 4.1 Flash 1017",
+   "key": "deepseek-4-1-flash",
+   "org": "DeepSeek",
+   "metrics": {
+    "score": 4.21,
+    "partial_score": 6.79,
+    "cost_per_task": 0.81,
+    "tokens_per_task": 253727,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "DeepSeek Harness",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark Open",
+   "key": "muse-spark-open",
+   "org": "Meta",
+   "metrics": {
+    "score": 3.98,
+    "partial_score": 4.76,
+    "cost_per_task": 3.44,
+    "tokens_per_task": 243924,
+    "tasks": 10,
+    "tasks_scored": 9
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Muse Code",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "MiniMax M3.1 Flash",
+   "key": "minimax-m3-1-flash",
+   "org": "MiniMax",
+   "metrics": {
+    "score": 3.93,
+    "partial_score": 6.04,
+    "cost_per_task": 1.46,
+    "tokens_per_task": 261509,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "MCode",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  },
+  {
+   "model": "Inkling",
+   "key": "inkling",
+   "org": "Thinking Machines",
+   "metrics": {
+    "score": 0.65,
+    "partial_score": 1.32,
+    "cost_per_task": 5.86,
+    "tokens_per_task": 80964,
+    "tasks": 10,
+    "tasks_scored": 10
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "OpenCode",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "partner": "emulated",
+    "domain": "materials-science"
+   },
+   "flags": []
+  }
+ ]
+}

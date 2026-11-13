@@ -1,0 +1,314 @@
+{
+ "extractor_version": "web_sources 1.0",
+ "source": "scale_seal",
+ "category": "rli",
+ "page": "https://labs.scale.com/leaderboard/rli",
+ "wayback_capture": null,
+ "retrieved": "2026-11-13T00:26:00Z",
+ "n": 23,
+ "notes": {
+  "data_date": "2026-11-11",
+  "variant": "main"
+ },
+ "records": [
+  {
+   "model": "Claude Fable 5.2",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 41.25
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2026-11-09T20:13:33.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 21.25
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2026-10-07T21:54:07.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT 6 Astra",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 20.83
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2026-09-17T23:10:35.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 17.92
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2026-09-17T23:10:33.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini Argon 4",
+   "key": null,
+   "org": "google",
+   "metrics": {
+    "score": 17.08
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2026-10-22T22:16:23.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 15.83
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2026-07-01T17:01:34.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Deepseek V4.1 Flash",
+   "key": null,
+   "org": "deepseek",
+   "metrics": {
+    "score": 9.58
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2026-11-11T18:24:28.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 4.8",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 8.33
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2026-07-01T17:01:39.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Codex GPT 5.5",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 6.25
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2026-07-01T17:01:41.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.8 Flash",
+   "key": null,
+   "org": "google",
+   "metrics": {
+    "score": 5.83
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2026-10-01T01:17:24.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.7 Flash",
+   "key": null,
+   "org": "google",
+   "metrics": {
+    "score": 5
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2026-08-24T23:28:16.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "claude-opus-4-6 (CoWork)",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 4.17
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2026-03-05T22:16:54.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "claude opus 4.5 20251101 thinking",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 3.75
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2026-01-09T18:49:54.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Manus_1.6 (Max)",
+   "key": null,
+   "org": "manus",
+   "metrics": {
+    "score": 2.92
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2026-03-05T22:16:21.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gpt-5.2-2025-12-11 (medium)",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 2.5
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2026-01-29T17:03:48.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Manus 1.0",
+   "key": null,
+   "org": "manus",
+   "metrics": {
+    "score": 2.5
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2025-10-27T15:29:13.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Manus 1.5",
+   "key": null,
+   "org": "manus",
+   "metrics": {
+    "score": 2.5
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2025-11-21T19:18:06.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "claude-4-5-Sonnet",
+   "key": null,
+   "org": "anthropic",
+   "metrics": {
+    "score": 2.08
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2025-10-27T15:29:30.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gpt-5.2-2025-12-11 (default)",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 2.08
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2026-01-09T18:50:47.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gpt 5 2025.08.07",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 1.67
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2025-10-27T15:29:30.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "ChatGPT agent",
+   "key": null,
+   "org": "openai",
+   "metrics": {
+    "score": 1.25
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2025-10-27T15:29:30.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gemini 3 pro preview",
+   "key": null,
+   "org": "google",
+   "metrics": {
+    "score": 1.25
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2025-12-09T16:51:03.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gemini 2.5 pro preview 06.05",
+   "key": null,
+   "org": "google",
+   "metrics": {
+    "score": 0.83
+   },
+   "ci": {},
+   "attrs": {
+    "created": "2025-10-27T15:29:30.000Z"
+   },
+   "flags": []
+  }
+ ]
+}

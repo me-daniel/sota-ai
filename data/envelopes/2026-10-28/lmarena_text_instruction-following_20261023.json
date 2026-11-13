@@ -1,0 +1,338 @@
+{
+ "extractor_version": "import_legacy 1.0",
+ "source": "lmarena_text",
+ "category": "instruction-following",
+ "page": "https://arena.ai/leaderboard/chat/text/instruction-following",
+ "wayback_capture": null,
+ "retrieved": "2026-10-23T00:00:00Z",
+ "n": 18,
+ "notes": {
+  "imported_from": "model_ratings_v6.xlsx"
+ },
+ "records": [
+  {
+   "model": "Claude Opus 5.5 (High)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "elo": 1521
+   },
+   "ci": {
+    "elo": [
+     1510,
+     1532
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5.5 (xHigh)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "elo": 1485
+   },
+   "ci": {
+    "elo": [
+     1474,
+     1496
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "elo": 1500
+   },
+   "ci": {
+    "elo": [
+     1491,
+     1509
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Haiku 5.5 (High)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "elo": 1429
+   },
+   "ci": {
+    "elo": [
+     1416,
+     1442
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "elo": 1473
+   },
+   "ci": {
+    "elo": [
+     1464,
+     1482
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6.1 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "elo": 1485
+   },
+   "ci": {
+    "elo": [
+     1473,
+     1497
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "elo": 1439
+   },
+   "ci": {
+    "elo": [
+     1433,
+     1445
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Argon (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "elo": 1519
+   },
+   "ci": {
+    "elo": [
+     1509,
+     1529
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "elo": 1490
+   },
+   "ci": {
+    "elo": [
+     1484,
+     1496
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder (Max)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "elo": 1497
+   },
+   "ci": {
+    "elo": [
+     1484,
+     1510
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.7 (xHigh)",
+   "key": null,
+   "org": "SpaceXAI",
+   "metrics": {
+    "elo": 1440
+   },
+   "ci": {
+    "elo": [
+     1431,
+     1449
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM-5.3 (Max)",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "elo": 1478
+   },
+   "ci": {
+    "elo": [
+     1471,
+     1485
+    ]
+   },
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "MiMo-V2.6-Pro (Default)",
+   "key": null,
+   "org": "Xiaomi",
+   "metrics": {
+    "elo": 1471
+   },
+   "ci": {
+    "elo": [
+     1455,
+     1487
+    ]
+   },
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Qwen3.8 Max (0902)",
+   "key": null,
+   "org": "Alibaba",
+   "metrics": {
+    "elo": 1475
+   },
+   "ci": {
+    "elo": [
+     1468,
+     1482
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "elo": 1450
+   },
+   "ci": {
+    "elo": [
+     1441,
+     1459
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark 1.3 (Max)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "elo": 1485
+   },
+   "ci": {
+    "elo": [
+     1477,
+     1493
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "MiMo-V2.6-Flash (Default)",
+   "key": null,
+   "org": "Xiaomi",
+   "metrics": {
+    "elo": 1438
+   },
+   "ci": {
+    "elo": [
+     1429,
+     1447
+    ]
+   },
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM-5.3-Flash (Default)",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "elo": 1473
+   },
+   "ci": {
+    "elo": [
+     1467,
+     1479
+    ]
+   },
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  }
+ ]
+}

@@ -1,0 +1,491 @@
+{
+ "extractor_version": "gdpx_fetch 1.0",
+ "source": "gdpx",
+ "category": "chip-design.ergodex",
+ "page": "https://gdpx.semianalysis.com/",
+ "wayback_capture": null,
+ "retrieved": "2026-11-13T00:06:03Z",
+ "n": 21,
+ "notes": {
+  "updated_at": "2026-11-09",
+  "data_source": "final",
+  "domains": {
+   "rsi": "Recursive Self-Improvement",
+   "chip-design": "Chip Design",
+   "cybersecurity": "Cybersecurity",
+   "biology": "Biology",
+   "finance": "Finance",
+   "legal": "Legal",
+   "quant-trading": "Quant Trading",
+   "hardware-design": "Hardware Design",
+   "materials-science": "Materials Science",
+   "alignment": "Alignment",
+   "software-engineering": "Software Engineering"
+  },
+  "unit": "percent of task credit, mean of 3 attempts"
+ },
+ "records": [
+  {
+   "model": "GPT-6 Astra (Max)",
+   "key": "gpt-6-astra",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 7.1,
+    "partial_score": 7.1,
+    "cost_per_task": 113.11,
+    "tokens_per_task": 513100,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 5.5 (Max)",
+   "key": "claude-opus-5-5",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 5.69,
+    "partial_score": 5.69,
+    "cost_per_task": 34.05,
+    "tokens_per_task": 280220,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.2 (Max)",
+   "key": "claude-fable-5-2",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 5.11,
+    "partial_score": 5.11,
+    "cost_per_task": 46.57,
+    "tokens_per_task": 556161,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Argon (High)",
+   "key": "gemini-4-argon",
+   "org": "Google",
+   "metrics": {
+    "score": 4.05,
+    "partial_score": 4.05,
+    "cost_per_task": 21.68,
+    "tokens_per_task": 418251,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Antigravity",
+    "reasoning": "High",
+    "open_weights": false,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT 6.1 Sol (Max)",
+   "key": "gpt-6-1-sol",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 3.99,
+    "partial_score": 3.99,
+    "cost_per_task": 21.63,
+    "tokens_per_task": 719036,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5.5 (Max)",
+   "key": "claude-sonnet-5-5",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 3.87,
+    "partial_score": 3.87,
+    "cost_per_task": 43.61,
+    "tokens_per_task": 523778,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna (Max)",
+   "key": "gpt-6-luna",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 3.76,
+    "partial_score": 3.76,
+    "cost_per_task": 1.97,
+    "tokens_per_task": 594269,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT 6.1 Terra (Max)",
+   "key": "gpt-6-1-terra",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 3.21,
+    "partial_score": 3.21,
+    "cost_per_task": 41.47,
+    "tokens_per_task": 1193440,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Carbon (High)",
+   "key": "gemini-4-carbon",
+   "org": "Google",
+   "metrics": {
+    "score": 2.38,
+    "partial_score": 2.38,
+    "cost_per_task": 9.34,
+    "tokens_per_task": 294374,
+    "tasks": 14,
+    "tasks_scored": 13
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Antigravity",
+    "reasoning": "High",
+    "open_weights": false,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Haiku 5.5 (Max)",
+   "key": "claude-haiku-5-5",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 2.02,
+    "partial_score": 2.02,
+    "cost_per_task": 2.51,
+    "tokens_per_task": 362156,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder Full",
+   "key": "muse-wonder-full",
+   "org": "Meta",
+   "metrics": {
+    "score": 0.99,
+    "partial_score": 0.99,
+    "cost_per_task": null,
+    "tokens_per_task": 166741,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Muse Code",
+    "reasoning": "Highest",
+    "open_weights": false,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek 4.1 Flash 1017",
+   "key": "deepseek-4-1-flash",
+   "org": "DeepSeek",
+   "metrics": {
+    "score": 0.66,
+    "partial_score": 0.66,
+    "cost_per_task": 1.24,
+    "tokens_per_task": 250927,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "DeepSeek Harness",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1 (Max)",
+   "key": "claude-fable-5-1",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 0.51,
+    "partial_score": 0.51,
+    "cost_per_task": 107.53,
+    "tokens_per_task": 244368,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "Qwen 3.8 Max",
+   "key": "qwen-3-8-max",
+   "org": "Alibaba",
+   "metrics": {
+    "score": 0.37,
+    "partial_score": 0.37,
+    "cost_per_task": 12.83,
+    "tokens_per_task": 353830,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "OpenCode",
+    "reasoning": "Highest",
+    "open_weights": false,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "MiniMax M3.1 Flash",
+   "key": "minimax-m3-1-flash",
+   "org": "MiniMax",
+   "metrics": {
+    "score": 0.27,
+    "partial_score": 0.27,
+    "cost_per_task": 3.53,
+    "tokens_per_task": 338955,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "MCode",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "Kimi K3",
+   "key": "kimi-k3",
+   "org": "Moonshot AI",
+   "metrics": {
+    "score": 0.2,
+    "partial_score": 0.2,
+    "cost_per_task": 29.68,
+    "tokens_per_task": 277877,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Kimi Code",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM 5.3 (Max)",
+   "key": "glm-5-3",
+   "org": "Z.ai",
+   "metrics": {
+    "score": 0.19,
+    "partial_score": 0.19,
+    "cost_per_task": 15.69,
+    "tokens_per_task": 203215,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "ZCode",
+    "reasoning": "Max",
+    "open_weights": true,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder",
+   "key": "muse-wonder",
+   "org": "Meta",
+   "metrics": {
+    "score": 0.14,
+    "partial_score": 0.14,
+    "cost_per_task": 10.43,
+    "tokens_per_task": 138139,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Muse Code",
+    "reasoning": "Highest",
+    "open_weights": false,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.7 (xHigh)",
+   "key": "grok-4-7",
+   "org": "xAI",
+   "metrics": {
+    "score": 0.05,
+    "partial_score": 0.05,
+    "cost_per_task": 20.72,
+    "tokens_per_task": 113884,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Grok Build",
+    "reasoning": "xHigh",
+    "open_weights": false,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "Inkling",
+   "key": "inkling",
+   "org": "Thinking Machines",
+   "metrics": {
+    "score": 0,
+    "partial_score": 0,
+    "cost_per_task": 7.95,
+    "tokens_per_task": 62494,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "OpenCode",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark Open",
+   "key": "muse-spark-open",
+   "org": "Meta",
+   "metrics": {
+    "score": 0,
+    "partial_score": 0,
+    "cost_per_task": 5.39,
+    "tokens_per_task": 221720,
+    "tasks": 14,
+    "tasks_scored": 14
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Muse Code",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "partner": "ergodex",
+    "domain": "chip-design"
+   },
+   "flags": []
+  }
+ ]
+}

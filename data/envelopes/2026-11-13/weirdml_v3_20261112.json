@@ -1,0 +1,582 @@
+{
+ "extractor_version": "web_sources 1.0",
+ "source": "weirdml",
+ "category": "v3",
+ "page": "https://htihle.github.io/weirdml.html",
+ "wayback_capture": null,
+ "retrieved": "2026-11-13T00:26:47Z",
+ "n": 27,
+ "notes": {
+  "data_date": "2026-11-12",
+  "task_count": 11
+ },
+ "records": [
+  {
+   "model": "Claude Fable 5.2 (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 43.04727595779221,
+    "mean_api_cost_usd": 29.158831298701298
+   },
+   "ci": {
+    "score": [
+     41.65670313171008,
+     44.444616309805596
+    ]
+   },
+   "attrs": {
+    "harness": "claude_code",
+    "open_weights": false,
+    "provider_name": "Claude Fable 5.2 (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 42.220231363636366,
+    "mean_api_cost_usd": 27.85400378787879
+   },
+   "ci": {
+    "score": [
+     40.210673874646304,
+     44.13768426282729
+    ]
+   },
+   "attrs": {
+    "harness": "codex_cli",
+    "open_weights": false,
+    "provider_name": "GPT-6 Astra (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6.1 Sol (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 38.25364136363636,
+    "mean_api_cost_usd": 5.2861211363636365
+   },
+   "ci": {
+    "score": [
+     36.11269491595925,
+     40.3193523268359
+    ]
+   },
+   "attrs": {
+    "harness": "codex_cli",
+    "open_weights": false,
+    "provider_name": "GPT-6.1 Sol (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 5.5 (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 31.20028142857143,
+    "mean_api_cost_usd": 10.249390519480519
+   },
+   "ci": {
+    "score": [
+     29.956413873401864,
+     32.41933721050258
+    ]
+   },
+   "attrs": {
+    "harness": "claude_code",
+    "open_weights": false,
+    "provider_name": "Claude Opus 5.5 (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6.1 Terra (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 28.086310681818183,
+    "mean_api_cost_usd": 2.860696301652893
+   },
+   "ci": {
+    "score": [
+     26.570441388949067,
+     29.60992110559714
+    ]
+   },
+   "attrs": {
+    "harness": "codex_cli",
+    "open_weights": false,
+    "provider_name": "GPT-6.1 Terra (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1 (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 25.970212727272727,
+    "mean_api_cost_usd": 31.934821818181817
+   },
+   "ci": {
+    "score": [
+     24.583379958408845,
+     27.325935552266923
+    ]
+   },
+   "attrs": {
+    "harness": "claude_code",
+    "open_weights": false,
+    "provider_name": "Claude Fable 5.1 (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Argon (high)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 20.261679772727273,
+    "mean_api_cost_usd": 16.207485454545456
+   },
+   "ci": {
+    "score": [
+     18.706738159851604,
+     21.842463930901708
+    ]
+   },
+   "attrs": {
+    "harness": "gemini_cli",
+    "open_weights": false,
+    "provider_name": "Gemini 4 Argon (high)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5.5 (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 19.940320346320345,
+    "mean_api_cost_usd": 9.274527272727273
+   },
+   "ci": {
+    "score": [
+     18.33030859898703,
+     21.54653454900072
+    ]
+   },
+   "attrs": {
+    "harness": "claude_code",
+    "open_weights": false,
+    "provider_name": "Claude Sonnet 5.5 (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Sol (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 19.731756666666666,
+    "mean_api_cost_usd": 6.905421212121212
+   },
+   "ci": {
+    "score": [
+     18.420490736520566,
+     21.065631169487123
+    ]
+   },
+   "attrs": {
+    "harness": "codex_cli",
+    "open_weights": false,
+    "provider_name": "GPT-6 Sol (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 5 (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 19.01117537878788,
+    "mean_api_cost_usd": 25.262239242424243
+   },
+   "ci": {
+    "score": [
+     17.251390712492416,
+     20.723765201750837
+    ]
+   },
+   "attrs": {
+    "harness": "claude_code",
+    "open_weights": false,
+    "provider_name": "Claude Opus 5 (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5 (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 15.586933333333333,
+    "mean_api_cost_usd": 52.85670787878788
+   },
+   "ci": {
+    "score": [
+     13.502551423023098,
+     17.68371760174878
+    ]
+   },
+   "attrs": {
+    "harness": "claude_code",
+    "open_weights": false,
+    "provider_name": "Claude Fable 5 (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 15.138193262987013,
+    "mean_api_cost_usd": 11.000113311688311
+   },
+   "ci": {
+    "score": [
+     13.991722211453192,
+     16.299246112185813
+    ]
+   },
+   "attrs": {
+    "harness": "codex_cli",
+    "open_weights": false,
+    "provider_name": "Muse Wonder (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-5.6 Sol (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 14.992224545454548,
+    "mean_api_cost_usd": 6.2785709090909085
+   },
+   "ci": {
+    "score": [
+     13.58078391654369,
+     16.386718709258975
+    ]
+   },
+   "attrs": {
+    "harness": "codex_cli",
+    "open_weights": false,
+    "provider_name": "GPT-5.6 Sol (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Haiku 5.5 (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 11.695232727272726,
+    "mean_api_cost_usd": 2.3003781818181817
+   },
+   "ci": {
+    "score": [
+     10.105641843814666,
+     13.295657289853594
+    ]
+   },
+   "attrs": {
+    "harness": "claude_code",
+    "open_weights": false,
+    "provider_name": "Claude Haiku 5.5 (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Kimi K3.1 Pro (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 9.890022727272727,
+    "mean_api_cost_usd": 10.024531818181819
+   },
+   "ci": {
+    "score": [
+     8.428140466747399,
+     11.346851385321877
+    ]
+   },
+   "attrs": {
+    "harness": "kimi_code",
+    "open_weights": true,
+    "provider_name": "Kimi K3.1 Pro (xhigh, Fireworks)"
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek V4.1 Flash 1017 (high)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 9.10131068181818,
+    "mean_api_cost_usd": 0.8802140909090909
+   },
+   "ci": {
+    "score": [
+     7.896153386207351,
+     10.290501130502081
+    ]
+   },
+   "attrs": {
+    "harness": "codex_cli",
+    "open_weights": true,
+    "provider_name": "DeepSeek V4.1 Flash 1017 (high, InferenceNet)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.7 (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 8.452663636363637,
+    "mean_api_cost_usd": 26.971977803030303
+   },
+   "ci": {
+    "score": [
+     7.207282634250717,
+     9.687934638987187
+    ]
+   },
+   "attrs": {
+    "harness": "codex_cli",
+    "open_weights": false,
+    "provider_name": "Grok 4.7 (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 7.874124242424243,
+    "mean_api_cost_usd": 0.3214727272727273
+   },
+   "ci": {
+    "score": [
+     6.83876377419589,
+     8.918165506277981
+    ]
+   },
+   "attrs": {
+    "harness": "codex_cli",
+    "open_weights": false,
+    "provider_name": "GPT-6 Luna (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Kimi K3 (high)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 7.544402727272727,
+    "mean_api_cost_usd": 19.88479090909091
+   },
+   "ci": {
+    "score": [
+     6.16273640356907,
+     8.941091142133608
+    ]
+   },
+   "attrs": {
+    "harness": "kimi_code",
+    "open_weights": true,
+    "provider_name": "Kimi K3 (high, Fireworks)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.8 Flash (high)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 7.378749090909091,
+    "mean_api_cost_usd": 3.9440827272727272
+   },
+   "ci": {
+    "score": [
+     6.331183950766504,
+     8.385283990954202
+    ]
+   },
+   "attrs": {
+    "harness": "gemini_cli",
+    "open_weights": false,
+    "provider_name": "Gemini 3.8 Flash (high)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark 1.3 (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 6.65496840909091,
+    "mean_api_cost_usd": 5.557521363636364
+   },
+   "ci": {
+    "score": [
+     5.313341632057393,
+     7.96745459382696
+    ]
+   },
+   "attrs": {
+    "harness": "codex_cli",
+    "open_weights": false,
+    "provider_name": "Muse Spark 1.3 (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 4.5 (high)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 6.5148765151515144,
+    "mean_api_cost_usd": 8.70339090909091
+   },
+   "ci": {
+    "score": [
+     4.923123576299154,
+     8.101650711156005
+    ]
+   },
+   "attrs": {
+    "harness": "claude_code",
+    "open_weights": false,
+    "provider_name": "Claude Opus 4.5 (high)"
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek V4.1 Flash (high)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 5.946331818181818,
+    "mean_api_cost_usd": 0.7370795454545455
+   },
+   "ci": {
+    "score": [
+     4.093722599951715,
+     7.784458914744456
+    ]
+   },
+   "attrs": {
+    "harness": "opencode",
+    "open_weights": true,
+    "provider_name": "DeepSeek V4.1 Flash (high, Novita)"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-5.6 Luna (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 5.157952272727273,
+    "mean_api_cost_usd": 0.735415909090909
+   },
+   "ci": {
+    "score": [
+     3.7213162613298745,
+     6.59534149533897
+    ]
+   },
+   "attrs": {
+    "harness": "codex_cli",
+    "open_weights": false,
+    "provider_name": "GPT-5.6 Luna (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-5.2 (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 5.00787722943723,
+    "mean_api_cost_usd": 9.29019380952381
+   },
+   "ci": {
+    "score": [
+     3.9899922390569045,
+     6.008183532038509
+    ]
+   },
+   "attrs": {
+    "harness": "codex_cli",
+    "open_weights": false,
+    "provider_name": "GPT-5.2 (xhigh)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Mistral Large 4 (high)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 4.195624545454545,
+    "mean_api_cost_usd": 28.123720530303032
+   },
+   "ci": {
+    "score": [
+     2.7639108298771164,
+     5.634907324322642
+    ]
+   },
+   "attrs": {
+    "harness": "opencode",
+    "open_weights": false,
+    "provider_name": "Mistral Large 4 (high, Mistral)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Inkling (xhigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "score": 3.9029836363636363,
+    "mean_api_cost_usd": 1.3283172727272727
+   },
+   "ci": {
+    "score": [
+     2.894016569008613,
+     4.877764378826328
+    ]
+   },
+   "attrs": {
+    "harness": "opencode",
+    "open_weights": true,
+    "provider_name": "Inkling (xhigh, Together)"
+   },
+   "flags": []
+  }
+ ]
+}

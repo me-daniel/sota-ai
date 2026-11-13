@@ -1,0 +1,1886 @@
+{
+ "extractor_version": "web_sources 1.0",
+ "source": "matharena",
+ "category": "models",
+ "page": "https://matharena.ai/models",
+ "wayback_capture": null,
+ "retrieved": "2026-11-13T00:26:04Z",
+ "n": 117,
+ "notes": {
+  "data_date": null
+ },
+ "records": [
+  {
+   "model": "GPT-6.1 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 80.6
+   },
+   "ci": {
+    "expected_performance": [
+     78.1,
+     83.1
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 77.9
+   },
+   "ci": {
+    "expected_performance": [
+     73.60000000000001,
+     82.2
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 75.6
+   },
+   "ci": {
+    "expected_performance": [
+     72.0,
+     79.19999999999999
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Claude-Opus-5.5 (High)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "expected_performance": 75.3
+   },
+   "ci": {
+    "expected_performance": [
+     72.3,
+     78.3
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Claude-Fable-5.1 (High)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "expected_performance": 73.3
+   },
+   "ci": {
+    "expected_performance": [
+     68.39999999999999,
+     78.2
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (Low)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 73.0
+   },
+   "ci": {
+    "expected_performance": [
+     69.0,
+     77.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Claude-Fable-5.1 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "expected_performance": 72.2
+   },
+   "ci": {
+    "expected_performance": [
+     68.0,
+     76.4
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Claude-Opus-5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "expected_performance": 63.4
+   },
+   "ci": {
+    "expected_performance": [
+     58.8,
+     68.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Claude-Fable-5.1 (Low)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "expected_performance": 62.6
+   },
+   "ci": {
+    "expected_performance": [
+     58.0,
+     67.2
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Argon (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "expected_performance": 62.1
+   },
+   "ci": {
+    "expected_performance": [
+     52.2,
+     72.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GPT-5.6-Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 55.8
+   },
+   "ci": {
+    "expected_performance": [
+     51.9,
+     59.699999999999996
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Kimi K3.1 Pro (Max)",
+   "key": null,
+   "org": "Moonshot AI",
+   "metrics": {
+    "expected_performance": 54.3
+   },
+   "ci": {
+    "expected_performance": [
+     48.699999999999996,
+     59.9
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GPT-5.5 (xHigh)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 54.1
+   },
+   "ci": {
+    "expected_performance": [
+     50.2,
+     58.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder (Max)",
+   "key": null,
+   "org": "Meta AI",
+   "metrics": {
+    "expected_performance": 51.3
+   },
+   "ci": {
+    "expected_performance": [
+     45.4,
+     57.199999999999996
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Qwen3.8-Max (Max)",
+   "key": null,
+   "org": "Qwen",
+   "metrics": {
+    "expected_performance": 47.0
+   },
+   "ci": {
+    "expected_performance": [
+     41.0,
+     53.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GPT-5.4-Pro (xHigh)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 46.8
+   },
+   "ci": {
+    "expected_performance": [
+     41.3,
+     52.3
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-V4.1-Flash-1017 (Max)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 46.6
+   },
+   "ci": {
+    "expected_performance": [
+     41.1,
+     52.1
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Claude-Fable-5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "expected_performance": 46.1
+   },
+   "ci": {
+    "expected_performance": [
+     42.6,
+     49.6
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Kimi K3 (Max)",
+   "key": null,
+   "org": "Moonshot AI",
+   "metrics": {
+    "expected_performance": 42.9
+   },
+   "ci": {
+    "expected_performance": [
+     38.5,
+     47.3
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Inkling 2 Small (0.99)",
+   "key": null,
+   "org": "Thinking Machines Lab",
+   "metrics": {
+    "expected_performance": 42.3
+   },
+   "ci": {
+    "expected_performance": [
+     33.9,
+     50.699999999999996
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-V4.1-Flash-1017 (max, DSH)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 40.5
+   },
+   "ci": {
+    "expected_performance": [
+     36.4,
+     44.6
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-V4.1-Flash (Max)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 39.3
+   },
+   "ci": {
+    "expected_performance": [
+     33.3,
+     45.3
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Muse Spark 1.1",
+   "key": null,
+   "org": "Meta AI",
+   "metrics": {
+    "expected_performance": 39.0
+   },
+   "ci": {
+    "expected_performance": [
+     35.3,
+     42.7
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Muse Spark 1.3 (Max)",
+   "key": null,
+   "org": "Meta AI",
+   "metrics": {
+    "expected_performance": 36.7
+   },
+   "ci": {
+    "expected_performance": [
+     28.400000000000002,
+     45.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Claude-Opus-4.8 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "expected_performance": 35.4
+   },
+   "ci": {
+    "expected_performance": [
+     32.0,
+     38.8
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Grok 4.7 (xHigh)",
+   "key": null,
+   "org": "xAI",
+   "metrics": {
+    "expected_performance": 34.9
+   },
+   "ci": {
+    "expected_performance": [
+     27.799999999999997,
+     42.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GPT-5.4 (xHigh)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 34.1
+   },
+   "ci": {
+    "expected_performance": [
+     29.700000000000003,
+     38.5
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GPT-5.2 (xHigh)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 31.3
+   },
+   "ci": {
+    "expected_performance": [
+     26.6,
+     36.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "expected_performance": 30.9
+   },
+   "ci": {
+    "expected_performance": [
+     28.5,
+     33.3
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Qwen3.8-2.4T-A95B (Max)",
+   "key": null,
+   "org": "Qwen",
+   "metrics": {
+    "expected_performance": 30.9
+   },
+   "ci": {
+    "expected_performance": [
+     26.0,
+     35.8
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Grok 4.5 (High)",
+   "key": null,
+   "org": "xAI",
+   "metrics": {
+    "expected_performance": 30.7
+   },
+   "ci": {
+    "expected_performance": [
+     27.599999999999998,
+     33.8
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.1 Pro Preview (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "expected_performance": 28.1
+   },
+   "ci": {
+    "expected_performance": [
+     25.5,
+     30.700000000000003
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Muse Spark Open (xHigh)",
+   "key": null,
+   "org": "Meta AI",
+   "metrics": {
+    "expected_performance": 25.4
+   },
+   "ci": {
+    "expected_performance": [
+     18.099999999999998,
+     32.699999999999996
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-v4-Flash (Max)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 25.0
+   },
+   "ci": {
+    "expected_performance": [
+     22.8,
+     27.2
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-v4-Pro (Max)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 24.7
+   },
+   "ci": {
+    "expected_performance": [
+     22.2,
+     27.2
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.7 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "expected_performance": 24.1
+   },
+   "ci": {
+    "expected_performance": [
+     21.700000000000003,
+     26.5
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.5 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "expected_performance": 24.0
+   },
+   "ci": {
+    "expected_performance": [
+     21.8,
+     26.2
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GPT-5.2 (High)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 23.4
+   },
+   "ci": {
+    "expected_performance": [
+     20.799999999999997,
+     26.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Kimi K2.6 (High)",
+   "key": null,
+   "org": "Moonshot AI",
+   "metrics": {
+    "expected_performance": 23.2
+   },
+   "ci": {
+    "expected_performance": [
+     21.0,
+     25.4
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Claude-Opus-4.6 (High)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "expected_performance": 22.5
+   },
+   "ci": {
+    "expected_performance": [
+     20.3,
+     24.7
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.6 Flash",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "expected_performance": 22.3
+   },
+   "ci": {
+    "expected_performance": [
+     20.2,
+     24.400000000000002
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GLM 5.2 (Max)",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "expected_performance": 22.0
+   },
+   "ci": {
+    "expected_performance": [
+     20.1,
+     23.9
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Mistral Large 4 (High)",
+   "key": null,
+   "org": "Mistral",
+   "metrics": {
+    "expected_performance": 21.1
+   },
+   "ci": {
+    "expected_performance": [
+     15.200000000000001,
+     27.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Claude-Opus-4.7 (xHigh)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "expected_performance": 19.9
+   },
+   "ci": {
+    "expected_performance": [
+     17.799999999999997,
+     22.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Gemini 3 Pro (preview)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "expected_performance": 19.8
+   },
+   "ci": {
+    "expected_performance": [
+     17.2,
+     22.400000000000002
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Gemini 3 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "expected_performance": 19.8
+   },
+   "ci": {
+    "expected_performance": [
+     17.3,
+     22.3
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GLM 5.1",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "expected_performance": 19.6
+   },
+   "ci": {
+    "expected_performance": [
+     17.5,
+     21.700000000000003
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GLM 5",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "expected_performance": 19.4
+   },
+   "ci": {
+    "expected_performance": [
+     17.099999999999998,
+     21.7
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Step 3.7 Flash (High)",
+   "key": null,
+   "org": "StepFun",
+   "metrics": {
+    "expected_performance": 19.4
+   },
+   "ci": {
+    "expected_performance": [
+     17.599999999999998,
+     21.2
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-v3.2-Speciale",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 19.3
+   },
+   "ci": {
+    "expected_performance": [
+     16.6,
+     22.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Step 3.5 Flash",
+   "key": null,
+   "org": "StepFun",
+   "metrics": {
+    "expected_performance": 19.1
+   },
+   "ci": {
+    "expected_performance": [
+     16.900000000000002,
+     21.3
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Qwen3.5-397b-a17b",
+   "key": null,
+   "org": "Qwen",
+   "metrics": {
+    "expected_performance": 18.9
+   },
+   "ci": {
+    "expected_performance": [
+     16.299999999999997,
+     21.5
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.1 Pro Preview (Low)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "expected_performance": 18.1
+   },
+   "ci": {
+    "expected_performance": [
+     15.400000000000002,
+     20.8
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Kimi K2.5 (High)",
+   "key": null,
+   "org": "Moonshot AI",
+   "metrics": {
+    "expected_performance": 17.9
+   },
+   "ci": {
+    "expected_performance": [
+     15.399999999999999,
+     20.4
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GPT-5.1 (High)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 17.5
+   },
+   "ci": {
+    "expected_performance": [
+     14.9,
+     20.1
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GPT-5 (High)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 17.3
+   },
+   "ci": {
+    "expected_performance": [
+     14.5,
+     20.1
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "NVIDIA-Nemotron-3-Super",
+   "key": null,
+   "org": "NVIDIA",
+   "metrics": {
+    "expected_performance": 16.9
+   },
+   "ci": {
+    "expected_performance": [
+     14.299999999999999,
+     19.5
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GLM 4.6",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "expected_performance": 16.7
+   },
+   "ci": {
+    "expected_performance": [
+     13.799999999999999,
+     19.599999999999998
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-v3.2 (Think)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 16.4
+   },
+   "ci": {
+    "expected_performance": [
+     13.799999999999999,
+     19.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Kimi K2 Thinking",
+   "key": null,
+   "org": "Moonshot AI",
+   "metrics": {
+    "expected_performance": 16.3
+   },
+   "ci": {
+    "expected_performance": [
+     13.700000000000001,
+     18.900000000000002
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Qwen3.5-27B",
+   "key": null,
+   "org": "Qwen",
+   "metrics": {
+    "expected_performance": 16.2
+   },
+   "ci": {
+    "expected_performance": [
+     13.6,
+     18.8
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Grok 4.1 Fast (Reasoning)",
+   "key": null,
+   "org": "xAI",
+   "metrics": {
+    "expected_performance": 15.8
+   },
+   "ci": {
+    "expected_performance": [
+     13.100000000000001,
+     18.5
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Grok 4",
+   "key": null,
+   "org": "xAI",
+   "metrics": {
+    "expected_performance": 15.7
+   },
+   "ci": {
+    "expected_performance": [
+     12.899999999999999,
+     18.5
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GPT OSS 120B (High)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 15.7
+   },
+   "ci": {
+    "expected_performance": [
+     13.0,
+     18.4
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GPT-5-mini (High)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 15.5
+   },
+   "ci": {
+    "expected_performance": [
+     12.8,
+     18.2
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "o4-mini (High)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 15.4
+   },
+   "ci": {
+    "expected_performance": [
+     12.600000000000001,
+     18.2
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Qwen3.5-35B-A3B",
+   "key": null,
+   "org": "Qwen",
+   "metrics": {
+    "expected_performance": 15.4
+   },
+   "ci": {
+    "expected_performance": [
+     12.8,
+     18.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Grok 4 Fast R",
+   "key": null,
+   "org": "xAI",
+   "metrics": {
+    "expected_performance": 15.3
+   },
+   "ci": {
+    "expected_performance": [
+     12.600000000000001,
+     18.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-v3.2-Exp (Think)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 15.1
+   },
+   "ci": {
+    "expected_performance": [
+     12.3,
+     17.9
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-v3.1 (Think)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 15.0
+   },
+   "ci": {
+    "expected_performance": [
+     12.2,
+     17.8
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "o3 (High)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 14.9
+   },
+   "ci": {
+    "expected_performance": [
+     12.100000000000001,
+     17.7
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Qwen3.6-35B",
+   "key": null,
+   "org": "Qwen",
+   "metrics": {
+    "expected_performance": 14.6
+   },
+   "ci": {
+    "expected_performance": [
+     12.5,
+     16.7
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GLM 4.5",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "expected_performance": 14.1
+   },
+   "ci": {
+    "expected_performance": [
+     11.399999999999999,
+     16.8
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Falcon-H1R-7B",
+   "key": null,
+   "org": "TIIUAE",
+   "metrics": {
+    "expected_performance": 14.0
+   },
+   "ci": {
+    "expected_performance": [
+     11.2,
+     16.8
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Qwen3-VL-235B Instruct",
+   "key": null,
+   "org": "Qwen",
+   "metrics": {
+    "expected_performance": 14.0
+   },
+   "ci": {
+    "expected_performance": [
+     10.9,
+     17.1
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Qwen3.5-9B",
+   "key": null,
+   "org": "Qwen",
+   "metrics": {
+    "expected_performance": 13.9
+   },
+   "ci": {
+    "expected_performance": [
+     11.3,
+     16.5
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-R1-0528",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 13.9
+   },
+   "ci": {
+    "expected_performance": [
+     11.100000000000001,
+     16.7
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GPT OSS 20B (High)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 13.8
+   },
+   "ci": {
+    "expected_performance": [
+     11.0,
+     16.6
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GPT-5-nano (High)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 13.8
+   },
+   "ci": {
+    "expected_performance": [
+     11.100000000000001,
+     16.5
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Gemini 2.5 Pro (05-06)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "expected_performance": 13.8
+   },
+   "ci": {
+    "expected_performance": [
+     11.0,
+     16.6
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Gemini 2.5 Pro",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "expected_performance": 13.7
+   },
+   "ci": {
+    "expected_performance": [
+     11.1,
+     16.3
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Claude-Sonnet-4.5 (Think)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "expected_performance": 13.6
+   },
+   "ci": {
+    "expected_performance": [
+     10.8,
+     16.4
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Qwen3.5-4B",
+   "key": null,
+   "org": "Qwen",
+   "metrics": {
+    "expected_performance": 13.1
+   },
+   "ci": {
+    "expected_performance": [
+     10.399999999999999,
+     15.8
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GLM 4.5 Air",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "expected_performance": 13.1
+   },
+   "ci": {
+    "expected_performance": [
+     10.3,
+     15.899999999999999
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Grok 3 Mini (High)",
+   "key": null,
+   "org": "xAI",
+   "metrics": {
+    "expected_performance": 12.8
+   },
+   "ci": {
+    "expected_performance": [
+     10.100000000000001,
+     15.5
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "o3-mini (High)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 12.8
+   },
+   "ci": {
+    "expected_performance": [
+     10.0,
+     15.600000000000001
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "o4-mini (Medium)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 12.7
+   },
+   "ci": {
+    "expected_performance": [
+     10.0,
+     15.399999999999999
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "K2-Think",
+   "key": null,
+   "org": "MBZUAI",
+   "metrics": {
+    "expected_performance": 12.6
+   },
+   "ci": {
+    "expected_performance": [
+     9.899999999999999,
+     15.3
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Qwen3-30B-A3B-2507-Think",
+   "key": null,
+   "org": "Qwen",
+   "metrics": {
+    "expected_performance": 12.5
+   },
+   "ci": {
+    "expected_performance": [
+     10.0,
+     15.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "QED-Nano",
+   "key": null,
+   "org": "LM-Provers",
+   "metrics": {
+    "expected_performance": 12.4
+   },
+   "ci": {
+    "expected_performance": [
+     9.9,
+     14.9
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Qwen3-235B-A22B",
+   "key": null,
+   "org": "Qwen",
+   "metrics": {
+    "expected_performance": 12.3
+   },
+   "ci": {
+    "expected_performance": [
+     9.700000000000001,
+     14.9
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Gemini 2.5 Flash (Thinking)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "expected_performance": 11.9
+   },
+   "ci": {
+    "expected_performance": [
+     9.3,
+     14.5
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "GLM 4.5V",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "expected_performance": 11.9
+   },
+   "ci": {
+    "expected_performance": [
+     9.4,
+     14.4
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Claude-Opus-4.0 (Think)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "expected_performance": 11.6
+   },
+   "ci": {
+    "expected_performance": [
+     9.0,
+     14.2
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "o1 (Medium)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 11.5
+   },
+   "ci": {
+    "expected_performance": [
+     8.9,
+     14.1
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "o3-mini (Medium)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 11.4
+   },
+   "ci": {
+    "expected_performance": [
+     8.8,
+     14.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Qwen3-30B-A3B",
+   "key": null,
+   "org": "Qwen",
+   "metrics": {
+    "expected_performance": 10.9
+   },
+   "ci": {
+    "expected_performance": [
+     8.4,
+     13.4
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "QwQ-32B",
+   "key": null,
+   "org": "Qwen",
+   "metrics": {
+    "expected_performance": 10.6
+   },
+   "ci": {
+    "expected_performance": [
+     8.1,
+     13.1
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-R1",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 10.6
+   },
+   "ci": {
+    "expected_performance": [
+     8.2,
+     13.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "o4-mini (Low)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 10.6
+   },
+   "ci": {
+    "expected_performance": [
+     8.3,
+     12.899999999999999
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Qwen3-4B-2507-Think",
+   "key": null,
+   "org": "Qwen",
+   "metrics": {
+    "expected_performance": 10.1
+   },
+   "ci": {
+    "expected_performance": [
+     8.1,
+     12.1
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Grok 3 Mini (Low)",
+   "key": null,
+   "org": "xAI",
+   "metrics": {
+    "expected_performance": 10.1
+   },
+   "ci": {
+    "expected_performance": [
+     7.8,
+     12.399999999999999
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gemini 2.0 flash thinking",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "expected_performance": 9.6
+   },
+   "ci": {
+    "expected_performance": [
+     7.3,
+     11.899999999999999
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-R1-Distill-32B",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 9.5
+   },
+   "ci": {
+    "expected_performance": [
+     7.3,
+     11.7
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-R1-Distill-70B",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 9.3
+   },
+   "ci": {
+    "expected_performance": [
+     7.000000000000001,
+     11.600000000000001
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Claude-3.7-Sonnet (Think)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "expected_performance": 9.2
+   },
+   "ci": {
+    "expected_performance": [
+     6.999999999999999,
+     11.399999999999999
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-R1-Distill-14B",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 8.9
+   },
+   "ci": {
+    "expected_performance": [
+     6.800000000000001,
+     11.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-V3-03-24",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 8.8
+   },
+   "ci": {
+    "expected_performance": [
+     6.500000000000001,
+     11.100000000000001
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "o3-mini (Low)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 8.8
+   },
+   "ci": {
+    "expected_performance": [
+     6.6000000000000005,
+     11.0
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "QwQ-32B-Preview",
+   "key": null,
+   "org": "Qwen",
+   "metrics": {
+    "expected_performance": 7.4
+   },
+   "ci": {
+    "expected_performance": [
+     5.300000000000001,
+     9.5
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gemini 2.0 flash",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "expected_performance": 6.6
+   },
+   "ci": {
+    "expected_performance": [
+     4.6,
+     8.6
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Qwen3.5-2B",
+   "key": null,
+   "org": "Qwen",
+   "metrics": {
+    "expected_performance": 6.5
+   },
+   "ci": {
+    "expected_performance": [
+     5.2,
+     7.8
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-V3",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 6.4
+   },
+   "ci": {
+    "expected_performance": [
+     4.4,
+     8.4
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gemini 2.0 pro",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "expected_performance": 6.4
+   },
+   "ci": {
+    "expected_performance": [
+     4.4,
+     8.4
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "DeepSeek-R1-Distill-1.5B",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "expected_performance": 6.2
+   },
+   "ci": {
+    "expected_performance": [
+     4.2,
+     8.2
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gpt 4o",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "expected_performance": 5.3
+   },
+   "ci": {
+    "expected_performance": [
+     3.4,
+     7.199999999999999
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "Claude-3.5-Sonnet",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "expected_performance": 4.5
+   },
+   "ci": {
+    "expected_performance": [
+     2.8,
+     6.2
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  }
+ ]
+}

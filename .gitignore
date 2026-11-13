@@ -1,0 +1,36 @@
+# --- Secrets & credentials ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*service-account*.json
+.secrets/
+
+# --- AI assistant: shared config (.claude/skills, hooks, settings.json) is tracked; personal state is not ---
+CLAUDE.md
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/handoff.md
+.claude/handoff.pending
+.mcp.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
+*.log
+~$*.xlsx
+
+# --- Pipeline data: envelopes are tracked; derived tables and raw page dumps are not ---
+data/obs/
+data/raw/
+sota-ai-ratings_*.zip

@@ -1,0 +1,715 @@
+{
+ "extractor_version": "web_sources 1.0",
+ "source": "tbench",
+ "category": "terminal-bench",
+ "page": "https://www.tbench.ai/leaderboard",
+ "wayback_capture": null,
+ "retrieved": "2026-11-13T00:25:59Z",
+ "n": 35,
+ "notes": {
+  "data_date": "2026-11-11",
+  "note": "best harness per model kept"
+ },
+ "records": [
+  {
+   "model": "Claude Opus 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 65.76,
+    "total_cost_usd": 4718.65
+   },
+   "ci": {
+    "accuracy": [
+     62.650000000000006,
+     68.87
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 63.94,
+    "total_cost_usd": 7333.64
+   },
+   "ci": {
+    "accuracy": [
+     60.94,
+     66.94
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6.1 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 60.91,
+    "total_cost_usd": 634.24
+   },
+   "ci": {
+    "accuracy": [
+     57.94,
+     63.879999999999995
+    ]
+   },
+   "attrs": {
+    "harness": "Codex",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 60.3,
+    "total_cost_usd": 3267.18
+   },
+   "ci": {
+    "accuracy": [
+     57.48,
+     63.12
+    ]
+   },
+   "attrs": {
+    "harness": "Codex",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (High)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 60,
+    "total_cost_usd": 2269.42
+   },
+   "ci": {
+    "accuracy": [
+     57.21,
+     62.79
+    ]
+   },
+   "attrs": {
+    "harness": "Codex",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (xHigh)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 59.7,
+    "total_cost_usd": 2350.51
+   },
+   "ci": {
+    "accuracy": [
+     57.010000000000005,
+     62.39
+    ]
+   },
+   "attrs": {
+    "harness": "Codex",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1 (xHigh)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 57.58,
+    "total_cost_usd": 4872.04
+   },
+   "ci": {
+    "accuracy": [
+     54.269999999999996,
+     60.89
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 57.27,
+    "total_cost_usd": 6243.5
+   },
+   "ci": {
+    "accuracy": [
+     53.440000000000005,
+     61.1
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (Medium)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 55.15,
+    "total_cost_usd": 1914.8
+   },
+   "ci": {
+    "accuracy": [
+     52.489999999999995,
+     57.81
+    ]
+   },
+   "attrs": {
+    "harness": "Codex",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1 (High)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 54.85,
+    "total_cost_usd": 3985.38
+   },
+   "ci": {
+    "accuracy": [
+     51.44,
+     58.260000000000005
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1 (Medium)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 53.94,
+    "total_cost_usd": 2832.9
+   },
+   "ci": {
+    "accuracy": [
+     50.55,
+     57.33
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 5 (xHigh)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 53.33,
+    "total_cost_usd": 6086.22
+   },
+   "ci": {
+    "accuracy": [
+     50.239999999999995,
+     56.42
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 52.12,
+    "total_cost_usd": 5969.11
+   },
+   "ci": {
+    "accuracy": [
+     48.73,
+     55.51
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (Low)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 50.91,
+    "total_cost_usd": 1557.3
+   },
+   "ci": {
+    "accuracy": [
+     48.12,
+     53.699999999999996
+    ]
+   },
+   "attrs": {
+    "harness": "Codex",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 50.3,
+    "total_cost_usd": 1451.32
+   },
+   "ci": {
+    "accuracy": [
+     47.07,
+     53.529999999999994
+    ]
+   },
+   "attrs": {
+    "harness": "Codex",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 5 (High)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 49.7,
+    "total_cost_usd": 4662.27
+   },
+   "ci": {
+    "accuracy": [
+     46.010000000000005,
+     53.39
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 5 (Medium)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 45.15,
+    "total_cost_usd": 3191.59
+   },
+   "ci": {
+    "accuracy": [
+     41.3,
+     49.0
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 44.85,
+    "total_cost_usd": 7265.01
+   },
+   "ci": {
+    "accuracy": [
+     41.02,
+     48.68
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1 (Low)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 43.33,
+    "total_cost_usd": 2358.72
+   },
+   "ci": {
+    "accuracy": [
+     39.72,
+     46.94
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM-5.3 (Max)",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "accuracy": 41.21,
+    "total_cost_usd": 2727.63
+   },
+   "ci": {
+    "accuracy": [
+     37.93,
+     44.49
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.7 (xHigh)",
+   "key": null,
+   "org": "xAI",
+   "metrics": {
+    "accuracy": 38.79,
+    "total_cost_usd": 3683.287146
+   },
+   "ci": {
+    "accuracy": [
+     35.2,
+     42.379999999999995
+    ]
+   },
+   "attrs": {
+    "harness": "Grok Build",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-5.6 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 38.48,
+    "total_cost_usd": 2541.7
+   },
+   "ci": {
+    "accuracy": [
+     34.65,
+     42.309999999999995
+    ]
+   },
+   "attrs": {
+    "harness": "Codex",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM-5.3-Flash (Non-reasoning)",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "accuracy": 35.45,
+    "total_cost_usd": 118.73752448
+   },
+   "ci": {
+    "accuracy": [
+     31.890000000000004,
+     39.010000000000005
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 5 (Low)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 34.85,
+    "total_cost_usd": 2393.88
+   },
+   "ci": {
+    "accuracy": [
+     30.93,
+     38.77
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Qwen3.8-Max-0902 (Max)",
+   "key": null,
+   "org": "Alibaba",
+   "metrics": {
+    "accuracy": 26.97,
+    "total_cost_usd": 4635.67
+   },
+   "ci": {
+    "accuracy": [
+     23.099999999999998,
+     30.84
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 4.8 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 23.64,
+    "total_cost_usd": 6481.26
+   },
+   "ci": {
+    "accuracy": [
+     20.05,
+     27.23
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-5.6 Terra (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 21.52,
+    "total_cost_usd": 1733.52
+   },
+   "ci": {
+    "accuracy": [
+     18.27,
+     24.77
+    ]
+   },
+   "attrs": {
+    "harness": "Codex",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.6 (High)",
+   "key": null,
+   "org": "xAI",
+   "metrics": {
+    "accuracy": 19.7,
+    "total_cost_usd": 3591.58
+   },
+   "ci": {
+    "accuracy": [
+     16.61,
+     22.79
+    ]
+   },
+   "attrs": {
+    "harness": "Grok Build",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "accuracy": 18.18,
+    "total_cost_usd": 1828.77
+   },
+   "ci": {
+    "accuracy": [
+     14.82,
+     21.54
+    ]
+   },
+   "attrs": {
+    "harness": "mini-SWE-agent",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-5.6 Luna (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 17.58,
+    "total_cost_usd": 346.67
+   },
+   "ci": {
+    "accuracy": [
+     14.669999999999998,
+     20.49
+    ]
+   },
+   "attrs": {
+    "harness": "Codex",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 15.15,
+    "total_cost_usd": 72.14
+   },
+   "ci": {
+    "accuracy": [
+     12.49,
+     17.810000000000002
+    ]
+   },
+   "attrs": {
+    "harness": "Codex",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark 1.3 (xHigh)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "accuracy": 14.85,
+    "total_cost_usd": 0
+   },
+   "ci": {
+    "accuracy": [
+     11.85,
+     17.85
+    ]
+   },
+   "attrs": {
+    "harness": "Muse Code",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.7 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "accuracy": 12.42,
+    "total_cost_usd": 1261.87
+   },
+   "ci": {
+    "accuracy": [
+     9.9,
+     14.94
+    ]
+   },
+   "attrs": {
+    "harness": "mini-SWE-agent",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.5 (High)",
+   "key": null,
+   "org": "xAI",
+   "metrics": {
+    "accuracy": 12.42,
+    "total_cost_usd": 2094.11
+   },
+   "ci": {
+    "accuracy": [
+     9.8,
+     15.04
+    ]
+   },
+   "attrs": {
+    "harness": "Grok Build",
+    "n_trials": 330
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 12.12,
+    "total_cost_usd": 9603.86
+   },
+   "ci": {
+    "accuracy": [
+     9.12,
+     15.12
+    ]
+   },
+   "attrs": {
+    "harness": "Claude Code",
+    "n_trials": 330
+   },
+   "flags": []
+  }
+ ]
+}

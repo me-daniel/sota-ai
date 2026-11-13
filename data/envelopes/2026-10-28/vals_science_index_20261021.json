@@ -1,0 +1,196 @@
+{
+ "extractor_version": "import_legacy 1.0",
+ "source": "vals",
+ "category": "science_index",
+ "page": "https://www.vals.ai/benchmarks/science_index",
+ "wayback_capture": null,
+ "retrieved": "2026-10-21T00:00:00Z",
+ "n": 14,
+ "notes": {
+  "imported_from": "model_ratings_v6.xlsx"
+ },
+ "records": [
+  {
+   "model": "Claude Opus 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 58.65
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 59.12
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Haiku 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "accuracy": 38.5
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 65.09
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6.1 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 59.63
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 28.38
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Argon (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "accuracy": 55.36
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "accuracy": 35.76
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder Full (Max)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "accuracy": 48.54
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder (Max)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "accuracy": 39.12
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.7 (xHigh)",
+   "key": null,
+   "org": "SpaceXAI",
+   "metrics": {
+    "accuracy": 34.83
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek V4.1 Flash 1017 (Max)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "accuracy": 29.65
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "accuracy": 45
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "MiMo-V2.6-Flash (Default)",
+   "key": null,
+   "org": "Xiaomi",
+   "metrics": {
+    "accuracy": 31.72
+   },
+   "ci": {},
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  }
+ ]
+}

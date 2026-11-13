@@ -1,0 +1,975 @@
+{
+ "extractor_version": "web_sources 1.0",
+ "source": "lechmazur_writing",
+ "category": "creative",
+ "page": "https://github.com/lechmazur/writing",
+ "wayback_capture": null,
+ "retrieved": "2026-11-13T00:26:04Z",
+ "n": 60,
+ "notes": {
+  "data_date": "2026-10-24",
+  "file": "data/writing_kimi_k31_depth50_20261024/ratings.csv"
+ },
+ "records": [
+  {
+   "model": "claude fable 5.1 (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 3.74522688975388
+   },
+   "ci": {
+    "thurstone": [
+     3.6626118610657983,
+     3.829380382006362
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "claude opus 5.5 (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 3.6930103337222153
+   },
+   "ci": {
+    "thurstone": [
+     3.586345546823937,
+     3.7761015454580598
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "claude opus 5 (xHigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 3.685034887023034
+   },
+   "ci": {
+    "thurstone": [
+     3.635205494874863,
+     3.7354585750077605
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gpt 6 astra (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 3.4158575949356056
+   },
+   "ci": {
+    "thurstone": [
+     3.354727634531663,
+     3.493521615428368
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "claude opus 5 (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 3.3219991338334482
+   },
+   "ci": {
+    "thurstone": [
+     3.2326083345643895,
+     3.4313026178852724
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "glm 5.3",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 2.950003844054237
+   },
+   "ci": {
+    "thurstone": [
+     2.855795384983768,
+     3.0469775825312433
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "claude fable 5 (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 2.8104052225242566
+   },
+   "ci": {
+    "thurstone": [
+     2.7450363491589744,
+     2.8687032458960946
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "kimi k3.1 pro (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 2.7232611637272544
+   },
+   "ci": {
+    "thurstone": [
+     2.633564086356338,
+     2.7993319845906086
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gpt 5.6 (xHigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 2.424828064595371
+   },
+   "ci": {
+    "thurstone": [
+     2.353193487910824,
+     2.511767171700099
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gpt 5.5 (xHigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 2.3897239959563326
+   },
+   "ci": {
+    "thurstone": [
+     2.3223823215464567,
+     2.459071084642514
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "kimi k3",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 2.3471869503950327
+   },
+   "ci": {
+    "thurstone": [
+     2.279282505414317,
+     2.4179878606972296
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gpt 5.6 (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 2.236905479877386
+   },
+   "ci": {
+    "thurstone": [
+     2.1528487796895623,
+     2.305364352499537
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gpt 5.4 (Medium)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 1.9219035963701712
+   },
+   "ci": {
+    "thurstone": [
+     1.8082117976611563,
+     2.0344112894767115
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gpt 5.4 (xHigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 1.9155877647030644
+   },
+   "ci": {
+    "thurstone": [
+     1.8009787582641463,
+     2.024884209441342
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "muse wonder (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 1.900112891562671
+   },
+   "ci": {
+    "thurstone": [
+     1.8090087086758537,
+     1.9938368875926638
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "claude opus 4.7 adaptive",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 1.7203612041517329
+   },
+   "ci": {
+    "thurstone": [
+     1.6228683002397661,
+     1.8211889436655266
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "claude-sonnet-4-6-16K",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 1.6104141336555502
+   },
+   "ci": {
+    "thurstone": [
+     1.5072471636956413,
+     1.7122808690798736
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "mimo v2.6 pro",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 1.5203983330833988
+   },
+   "ci": {
+    "thurstone": [
+     1.399039790892002,
+     1.6449326575515506
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "claude-opus-4-6-16K",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 1.0828391258244012
+   },
+   "ci": {
+    "thurstone": [
+     0.9178440114656798,
+     1.2752193726786538
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gemini 4 argon (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 0.7187867873517421
+   },
+   "ci": {
+    "thurstone": [
+     0.6025106069653065,
+     0.8254585391558029
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "claude opus 4.8 (xHigh)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 0.7173687136388801
+   },
+   "ci": {
+    "thurstone": [
+     0.6047213702873752,
+     0.8283607334374805
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "muse spark 1.1 (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 0.7130758118320296
+   },
+   "ci": {
+    "thurstone": [
+     0.60780775208886,
+     0.8006076986358771
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "muse spark 1.3 (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 0.49986973407155777
+   },
+   "ci": {
+    "thurstone": [
+     0.4276817411386718,
+     0.5811127841974748
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "deepseek v4 pro (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 0.4412626018567284
+   },
+   "ci": {
+    "thurstone": [
+     0.342367620000593,
+     0.555351664951732
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "glm 5.2 (Max)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 0.41167248426106917
+   },
+   "ci": {
+    "thurstone": [
+     0.3118022969307723,
+     0.4924035611819085
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "grok 4.7 (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 0.3505626943741389
+   },
+   "ci": {
+    "thurstone": [
+     0.15397838388404939,
+     0.5400123985575407
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gpt 5.2 (Medium)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 0.28723795867588947
+   },
+   "ci": {
+    "thurstone": [
+     0.13140280699200346,
+     0.43857645449999083
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "claude opus 4.8 (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 0.2035932103743468
+   },
+   "ci": {
+    "thurstone": [
+     0.11084364369095627,
+     0.32028880206692895
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "qwen3.8 (Max)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 0.11647763473310811
+   },
+   "ci": {
+    "thurstone": [
+     0.004821355826552884,
+     0.22075228798054808
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gemini 3.8 flash (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 0.08074767967313189
+   },
+   "ci": {
+    "thurstone": [
+     -0.03540037687074997,
+     0.2153268555261834
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "kimi k2.6",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": 0.03444147358468916
+   },
+   "ci": {
+    "thurstone": [
+     -0.078001186779373,
+     0.1429604428329099
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "muse spark 1.2 (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -0.09520755187719905
+   },
+   "ci": {
+    "thurstone": [
+     -0.18209227468375916,
+     0.002922226125727373
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "minimax m3",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -0.14340309533996126
+   },
+   "ci": {
+    "thurstone": [
+     -0.24393813171964476,
+     -0.024232897027748987
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "mistral medium 2508",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -0.43167540412668626
+   },
+   "ci": {
+    "thurstone": [
+     -0.5657921341876507,
+     -0.3061670243431682
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "deepseek v4.1 flash (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -0.5495755995428466
+   },
+   "ci": {
+    "thurstone": [
+     -0.6648746674621551,
+     -0.4392134791036065
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "deepseek v4 pro",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -0.5865471157918571
+   },
+   "ci": {
+    "thurstone": [
+     -0.69985460958185,
+     -0.46862552629006526
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "qwen3.8 27b",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -0.7032363283367037
+   },
+   "ci": {
+    "thurstone": [
+     -0.8582326037147104,
+     -0.5486600299849684
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "mimo v2.5 pro",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -0.7229548536770579
+   },
+   "ci": {
+    "thurstone": [
+     -0.8581291006016628,
+     -0.5964976104961364
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "qwen3 max preview",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -0.7321171958435382
+   },
+   "ci": {
+    "thurstone": [
+     -0.8926491244605663,
+     -0.5720275474984041
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gemini 3.7 flash (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -0.7551027668416068
+   },
+   "ci": {
+    "thurstone": [
+     -0.8704716157843234,
+     -0.6403310936687889
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "qwen3.6 max preview",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -0.9827975825964441
+   },
+   "ci": {
+    "thurstone": [
+     -1.1021665741863909,
+     -0.8631364628216082
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "glm 5.1",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -1.0835683662489917
+   },
+   "ci": {
+    "thurstone": [
+     -1.2566069054879978,
+     -0.8970294848484904
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "kimi k2.5",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -1.1311962054746545
+   },
+   "ci": {
+    "thurstone": [
+     -1.3141762429305306,
+     -0.9532356469712489
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "mimo v2 pro",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -1.2672041126908065
+   },
+   "ci": {
+    "thurstone": [
+     -1.4899013108842534,
+     -1.035209126383182
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "ernie 5.1",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -1.2972731224209184
+   },
+   "ci": {
+    "thurstone": [
+     -1.4184339269406296,
+     -1.1702398230808024
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "mistral large 4 (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -1.6807283581368995
+   },
+   "ci": {
+    "thurstone": [
+     -1.7868496808150676,
+     -1.58256655926255
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "mistral large 2512",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -1.8149234712217766
+   },
+   "ci": {
+    "thurstone": [
+     -1.9318619265158592,
+     -1.7040903645487604
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gemma 4 31b it reasoning",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -1.910339102947546
+   },
+   "ci": {
+    "thurstone": [
+     -2.006729687557872,
+     -1.8234274656132214
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "seed 2.0 pro",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -2.000467326735264
+   },
+   "ci": {
+    "thurstone": [
+     -2.11402264628277,
+     -1.8928267578603686
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gemini 3.5 flash",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -2.031256869139778
+   },
+   "ci": {
+    "thurstone": [
+     -2.114025934034347,
+     -1.946182461074182
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gemini 3.1 pro preview",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -2.213690163289152
+   },
+   "ci": {
+    "thurstone": [
+     -2.314183078281499,
+     -2.1101465207179118
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "qwen3.6 plus",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -2.325313052853437
+   },
+   "ci": {
+    "thurstone": [
+     -2.4853700395124405,
+     -2.1420160326636055
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "mistral medium 3.5",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -2.564547827492036
+   },
+   "ci": {
+    "thurstone": [
+     -2.6986698707740264,
+     -2.4324584690128375
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "qwen3.7 (Max)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -2.708656502701853
+   },
+   "ci": {
+    "thurstone": [
+     -2.8275675861738687,
+     -2.5802116713748546
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "deepseek v32",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -2.9171464269575194
+   },
+   "ci": {
+    "thurstone": [
+     -3.16168111520049,
+     -2.67982846951124
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "grok 4.6 (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -2.9295848940535185
+   },
+   "ci": {
+    "thurstone": [
+     -3.084338889977667,
+     -2.775757844606214
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "gpt oss 120b",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -3.174451895862995
+   },
+   "ci": {
+    "thurstone": [
+     -3.2821956439284934,
+     -3.0662929452158165
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "minimax m2.7",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -3.808456404785886
+   },
+   "ci": {
+    "thurstone": [
+     -3.9410950780818013,
+     -3.659549999291535
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "grok 4.3",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -4.297995059813704
+   },
+   "ci": {
+    "thurstone": [
+     -4.473611692334948,
+     -4.141150237093891
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  },
+  {
+   "model": "grok 4.5 (High)",
+   "key": null,
+   "org": null,
+   "metrics": {
+    "thurstone": -5.130740737375717
+   },
+   "ci": {
+    "thurstone": [
+     -5.208963826367604,
+     -5.043629964896908
+    ]
+   },
+   "attrs": {},
+   "flags": []
+  }
+ ]
+}

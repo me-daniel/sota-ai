@@ -1,0 +1,491 @@
+{
+ "extractor_version": "gdpx_fetch 1.0",
+ "source": "gdpx",
+ "category": "legal",
+ "page": "https://gdpx.semianalysis.com/",
+ "wayback_capture": null,
+ "retrieved": "2026-11-13T00:06:03Z",
+ "n": 21,
+ "notes": {
+  "updated_at": "2026-11-09",
+  "data_source": "final",
+  "domains": {
+   "rsi": "Recursive Self-Improvement",
+   "chip-design": "Chip Design",
+   "cybersecurity": "Cybersecurity",
+   "biology": "Biology",
+   "finance": "Finance",
+   "legal": "Legal",
+   "quant-trading": "Quant Trading",
+   "hardware-design": "Hardware Design",
+   "materials-science": "Materials Science",
+   "alignment": "Alignment",
+   "software-engineering": "Software Engineering"
+  },
+  "unit": "percent of task credit, mean of 3 attempts"
+ },
+ "records": [
+  {
+   "model": "Claude Fable 5.2 (Max)",
+   "key": "claude-fable-5-2",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 33.78,
+    "cost_per_task": 10.71,
+    "tokens_per_task": 198919.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder Full",
+   "key": "muse-wonder-full",
+   "org": "Meta",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 38.44,
+    "cost_per_task": null,
+    "tokens_per_task": 55332.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Muse Code",
+    "reasoning": "Highest",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 5.5 (Max)",
+   "key": "claude-opus-5-5",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 29.92,
+    "cost_per_task": 11.77,
+    "tokens_per_task": 202608.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna (Max)",
+   "key": "gpt-6-luna",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 19.49,
+    "cost_per_task": 0.05,
+    "tokens_per_task": 55575.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (Max)",
+   "key": "gpt-6-astra",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 31.04,
+    "cost_per_task": 5.35,
+    "tokens_per_task": 51401.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Argon (High)",
+   "key": "gemini-4-argon",
+   "org": "Google",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 25.97,
+    "cost_per_task": 6.97,
+    "tokens_per_task": 371840.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Antigravity",
+    "reasoning": "High",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT 6.1 Sol (Max)",
+   "key": "gpt-6-1-sol",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 30.83,
+    "cost_per_task": 0.73,
+    "tokens_per_task": 43180.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5.5 (Max)",
+   "key": "claude-sonnet-5-5",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 27.83,
+    "cost_per_task": 4.15,
+    "tokens_per_task": 245894.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Inkling",
+   "key": "inkling",
+   "org": "Thinking Machines",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 9.73,
+    "cost_per_task": 1.19,
+    "tokens_per_task": 43898.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "OpenCode",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Carbon (High)",
+   "key": "gemini-4-carbon",
+   "org": "Google",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 30.68,
+    "cost_per_task": 2.16,
+    "tokens_per_task": 129432.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Antigravity",
+    "reasoning": "High",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Haiku 5.5 (Max)",
+   "key": "claude-haiku-5-5",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 20.31,
+    "cost_per_task": 0.17,
+    "tokens_per_task": 188990.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder",
+   "key": "muse-wonder",
+   "org": "Meta",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 29.67,
+    "cost_per_task": 1.92,
+    "tokens_per_task": 46503.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Muse Code",
+    "reasoning": "Highest",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1 (Max)",
+   "key": "claude-fable-5-1",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 29.2,
+    "cost_per_task": 7.3,
+    "tokens_per_task": 96376.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT 6.1 Terra (Max)",
+   "key": "gpt-6-1-terra",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 30.01,
+    "cost_per_task": 0.61,
+    "tokens_per_task": 66231.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.7 (xHigh)",
+   "key": "grok-4-7",
+   "org": "xAI",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 29.31,
+    "cost_per_task": 3.23,
+    "tokens_per_task": 43562.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Grok Build",
+    "reasoning": "xHigh",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark Open",
+   "key": "muse-spark-open",
+   "org": "Meta",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 13.85,
+    "cost_per_task": 1.1,
+    "tokens_per_task": 84986.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Muse Code",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek 4.1 Flash 1017",
+   "key": "deepseek-4-1-flash",
+   "org": "DeepSeek",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 18.74,
+    "cost_per_task": 0.36,
+    "tokens_per_task": 159201.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "DeepSeek Harness",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Kimi K3",
+   "key": "kimi-k3",
+   "org": "Moonshot AI",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 16.37,
+    "cost_per_task": 0.84,
+    "tokens_per_task": 28790.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Kimi Code",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "MiniMax M3.1 Flash",
+   "key": "minimax-m3-1-flash",
+   "org": "MiniMax",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 14.23,
+    "cost_per_task": 0.18,
+    "tokens_per_task": 115740.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "MCode",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Qwen 3.8 Max",
+   "key": "qwen-3-8-max",
+   "org": "Alibaba",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 24.65,
+    "cost_per_task": 1.56,
+    "tokens_per_task": 84936.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "OpenCode",
+    "reasoning": "Highest",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM 5.3 (Max)",
+   "key": "glm-5-3",
+   "org": "Z.ai",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 19.77,
+    "cost_per_task": 1.64,
+    "tokens_per_task": 77332.0,
+    "tasks": 20,
+    "tasks_scored": 20,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "ZCode",
+    "reasoning": "Max",
+    "open_weights": true,
+    "domains": null
+   },
+   "flags": []
+  }
+ ]
+}

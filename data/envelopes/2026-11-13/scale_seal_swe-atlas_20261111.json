@@ -1,0 +1,519 @@
+{
+ "extractor_version": "web_sources 1.0",
+ "source": "scale_seal",
+ "category": "swe-atlas",
+ "page": "https://labs.scale.com/leaderboard/swe-atlas",
+ "wayback_capture": null,
+ "retrieved": "2026-11-13T00:26:00Z",
+ "n": 28,
+ "notes": {
+  "data_date": "2026-11-11",
+  "variant": "overall"
+ },
+ "records": [
+  {
+   "model": "Claude Fable 5.2",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 80.5
+   },
+   "ci": {
+    "score": [
+     75.7,
+     85.3
+    ]
+   },
+   "attrs": {
+    "created": "2026-11-11T21:25:05.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 77.4
+   },
+   "ci": {
+    "score": [
+     72.4,
+     82.4
+    ]
+   },
+   "attrs": {
+    "created": "2026-09-09T19:16:22.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 76.4
+   },
+   "ci": {
+    "score": [
+     71.2,
+     81.60000000000001
+    ]
+   },
+   "attrs": {
+    "created": "2026-09-02T21:52:32.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Carbon",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "score": 71.4
+   },
+   "ci": {
+    "score": [
+     65.9,
+     76.9
+    ]
+   },
+   "attrs": {
+    "created": "2026-11-11T21:25:05.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Argon",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "score": 70.1
+   },
+   "ci": {
+    "score": [
+     64.6,
+     75.6
+    ]
+   },
+   "attrs": {
+    "created": "2026-06-11T17:55:16.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 69.4
+   },
+   "ci": {
+    "score": [
+     63.800000000000004,
+     75.0
+    ]
+   },
+   "attrs": {
+    "created": "2026-05-06T01:43:45.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 68.3
+   },
+   "ci": {
+    "score": [
+     62.699999999999996,
+     73.89999999999999
+    ]
+   },
+   "attrs": {
+    "created": "2026-06-08T20:55:29.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 65.9
+   },
+   "ci": {
+    "score": [
+     60.2,
+     71.60000000000001
+    ]
+   },
+   "attrs": {
+    "created": "2026-05-06T01:44:12.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder 1.0",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "score": 64.8
+   },
+   "ci": {
+    "score": [
+     59.0,
+     70.6
+    ]
+   },
+   "attrs": {
+    "created": "2026-09-09T19:20:25.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Qwen 3.8 Max",
+   "key": null,
+   "org": "Alibaba",
+   "metrics": {
+    "score": 64.4
+   },
+   "ci": {
+    "score": [
+     58.7,
+     70.10000000000001
+    ]
+   },
+   "attrs": {
+    "created": "2026-11-11T21:25:05.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek V4.1 Flash",
+   "key": null,
+   "org": "Deepseek",
+   "metrics": {
+    "score": 62.1
+   },
+   "ci": {
+    "score": [
+     56.300000000000004,
+     67.9
+    ]
+   },
+   "attrs": {
+    "created": "2026-06-23T18:05:19.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.7",
+   "key": null,
+   "org": "XAI",
+   "metrics": {
+    "score": 62.1
+   },
+   "ci": {
+    "score": [
+     56.300000000000004,
+     67.9
+    ]
+   },
+   "attrs": {
+    "created": "2026-05-06T01:44:16.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Inkling 2 Small",
+   "key": null,
+   "org": "Thinking Machines",
+   "metrics": {
+    "score": 61.9
+   },
+   "ci": {
+    "score": [
+     56.1,
+     67.7
+    ]
+   },
+   "attrs": {
+    "created": "2026-05-06T01:44:24.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Kimi K3.1 Pro",
+   "key": null,
+   "org": "Moonshot ai",
+   "metrics": {
+    "score": 61.1
+   },
+   "ci": {
+    "score": [
+     55.2,
+     67.0
+    ]
+   },
+   "attrs": {
+    "created": "2026-11-11T21:25:05.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Kimi K3",
+   "key": null,
+   "org": "Moonshot ai ",
+   "metrics": {
+    "score": 61
+   },
+   "ci": {
+    "score": [
+     55.1,
+     66.9
+    ]
+   },
+   "attrs": {
+    "created": "2026-05-06T01:44:36.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Haiku 5.5",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "score": 59.4
+   },
+   "ci": {
+    "score": [
+     53.5,
+     65.3
+    ]
+   },
+   "attrs": {
+    "created": "2026-05-06T01:44:38.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM 5.3",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "score": 58.1
+   },
+   "ci": {
+    "score": [
+     52.2,
+     64.0
+    ]
+   },
+   "attrs": {
+    "created": "2026-11-11T21:25:05.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 57.7
+   },
+   "ci": {
+    "score": [
+     51.800000000000004,
+     63.6
+    ]
+   },
+   "attrs": {
+    "created": "2026-05-06T01:44:41.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.8 Flash",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "score": 57.3
+   },
+   "ci": {
+    "score": [
+     51.5,
+     63.099999999999994
+    ]
+   },
+   "attrs": {
+    "created": "2026-05-06T01:44:46.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Ember 1.0",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "score": 56
+   },
+   "ci": {
+    "score": [
+     50,
+     62
+    ]
+   },
+   "attrs": {
+    "created": "2026-11-11T21:25:05.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM 5.3 Flash",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "score": 55.3
+   },
+   "ci": {
+    "score": [
+     49.4,
+     61.199999999999996
+    ]
+   },
+   "attrs": {
+    "created": "2026-11-11T21:25:05.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 50.8
+   },
+   "ci": {
+    "score": [
+     44.8,
+     56.8
+    ]
+   },
+   "attrs": {
+    "created": "2026-05-06T01:44:50.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Mistral Large 4",
+   "key": null,
+   "org": "Mistral",
+   "metrics": {
+    "score": 45.2
+   },
+   "ci": {
+    "score": [
+     39.400000000000006,
+     51.0
+    ]
+   },
+   "attrs": {
+    "created": "2026-11-11T21:25:05.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark Open",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "score": 42.3
+   },
+   "ci": {
+    "score": [
+     36.4,
+     48.199999999999996
+    ]
+   },
+   "attrs": {
+    "created": "2026-05-06T01:44:54.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "MiniMax M3",
+   "key": null,
+   "org": "MiniMax",
+   "metrics": {
+    "score": 39.3
+   },
+   "ci": {
+    "score": [
+     33.5,
+     45.099999999999994
+    ]
+   },
+   "attrs": {
+    "created": "2026-11-11T21:25:05.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Nemotron 3.5 Super VL",
+   "key": null,
+   "org": "NVIDIA",
+   "metrics": {
+    "score": 24.8
+   },
+   "ci": {
+    "score": [
+     19.6,
+     30.0
+    ]
+   },
+   "attrs": {
+    "created": "2026-11-11T21:20:17.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "Nemotron 3 Ultra",
+   "key": null,
+   "org": "NVIDIA",
+   "metrics": {
+    "score": 21.4
+   },
+   "ci": {
+    "score": [
+     16.5,
+     26.299999999999997
+    ]
+   },
+   "attrs": {
+    "created": "2026-11-11T21:20:17.000Z"
+   },
+   "flags": []
+  },
+  {
+   "model": "gpt oss 120b",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "score": 8.8
+   },
+   "ci": {
+    "score": [
+     5.6000000000000005,
+     12.0
+    ]
+   },
+   "attrs": {
+    "created": "2026-11-11T21:25:05.000Z"
+   },
+   "flags": []
+  }
+ ]
+}

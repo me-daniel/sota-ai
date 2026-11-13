@@ -1,0 +1,497 @@
+{
+ "extractor_version": "import_legacy 1.0",
+ "source": "aa_personality",
+ "category": "personality",
+ "page": "https://artificialanalysis.ai/evaluations/aa-personalitybench",
+ "wayback_capture": null,
+ "retrieved": "2026-10-26T00:00:00Z",
+ "n": 21,
+ "notes": {
+  "imported_from": "model_ratings_v6.xlsx"
+ },
+ "records": [
+  {
+   "model": "Claude Opus 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "slop_residual": -380.813822204709,
+    "trait.sycophancy": 990
+   },
+   "ci": {
+    "slop_residual": [
+     -413.813822204709,
+     -347.813822204709
+    ],
+    "trait.sycophancy": [
+     965,
+     1015
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "slop_residual": -216.48956809314,
+    "trait.sycophancy": 907
+   },
+   "ci": {
+    "slop_residual": [
+     -248.48956809314,
+     -184.48956809314
+    ],
+    "trait.sycophancy": [
+     883.5,
+     930.5
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5.5 (Medium)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "slop_residual": -11.3167111581633,
+    "trait.sycophancy": 938
+   },
+   "ci": {
+    "slop_residual": [
+     -40.8167111581633,
+     18.1832888418367
+    ],
+    "trait.sycophancy": [
+     917.5,
+     958.5
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "slop_residual": -341.223915349815,
+    "trait.sycophancy": 731
+   },
+   "ci": {
+    "slop_residual": [
+     -374.723915349815,
+     -307.723915349815
+    ],
+    "trait.sycophancy": [
+     707,
+     755
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Haiku 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "slop_residual": -343.597456319013,
+    "trait.sycophancy": 1002
+   },
+   "ci": {
+    "slop_residual": [
+     -378.597456319013,
+     -308.597456319013
+    ],
+    "trait.sycophancy": [
+     979,
+     1025
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "slop_residual": -120.251742449059,
+    "trait.sycophancy": 987
+   },
+   "ci": {
+    "slop_residual": [
+     -154.751742449059,
+     -85.751742449059
+    ],
+    "trait.sycophancy": [
+     964,
+     1010
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6.1 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "slop_residual": -106.021463013741,
+    "trait.sycophancy": 1000
+   },
+   "ci": {
+    "slop_residual": [
+     -106.021463013741,
+     -106.021463013741
+    ],
+    "trait.sycophancy": [
+     1000,
+     1000
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "slop_residual": -212.726214869318,
+    "trait.sycophancy": 1013
+   },
+   "ci": {
+    "slop_residual": [
+     -249.226214869318,
+     -176.226214869318
+    ],
+    "trait.sycophancy": [
+     993.5,
+     1032.5
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Argon (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "slop_residual": -69.3759019603585,
+    "trait.sycophancy": 1232
+   },
+   "ci": {
+    "slop_residual": [
+     -107.8759019603585,
+     -30.875901960358505
+    ],
+    "trait.sycophancy": [
+     1203.5,
+     1260.5
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "slop_residual": 50.3868618295123,
+    "trait.sycophancy": 911
+   },
+   "ci": {
+    "slop_residual": [
+     15.886861829512299,
+     84.8868618295123
+    ],
+    "trait.sycophancy": [
+     889,
+     933
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder (Max)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "slop_residual": -56.9582626064898,
+    "trait.sycophancy": 1084
+   },
+   "ci": {
+    "slop_residual": [
+     -92.9582626064898,
+     -20.958262606489797
+    ],
+    "trait.sycophancy": [
+     1057.5,
+     1110.5
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.7 (xHigh)",
+   "key": null,
+   "org": "SpaceXAI",
+   "metrics": {
+    "slop_residual": -283.01450623893,
+    "trait.sycophancy": 703
+   },
+   "ci": {
+    "slop_residual": [
+     -316.01450623893,
+     -250.01450623892998
+    ],
+    "trait.sycophancy": [
+     680,
+     726
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Kimi K3.1 Pro (Default)",
+   "key": null,
+   "org": "Moonshot",
+   "metrics": {
+    "slop_residual": -99.086431722845,
+    "trait.sycophancy": 1013
+   },
+   "ci": {
+    "slop_residual": [
+     -132.08643172284502,
+     -66.086431722845
+    ],
+    "trait.sycophancy": [
+     987,
+     1039
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek V4.1 Flash 1017 (Max)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "slop_residual": -74.425188817987,
+    "trait.sycophancy": 857
+   },
+   "ci": {
+    "slop_residual": [
+     -113.925188817987,
+     -34.92518881798701
+    ],
+    "trait.sycophancy": [
+     833,
+     881
+    ]
+   },
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM-5.3 (Max)",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "slop_residual": -22.4391023676094,
+    "trait.sycophancy": 909
+   },
+   "ci": {
+    "slop_residual": [
+     -53.9391023676094,
+     9.0608976323906
+    ],
+    "trait.sycophancy": [
+     886,
+     932
+    ]
+   },
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "MiMo-V2.6-Pro (Default)",
+   "key": null,
+   "org": "Xiaomi",
+   "metrics": {
+    "slop_residual": 475.035959486601,
+    "trait.sycophancy": 863
+   },
+   "ci": {
+    "slop_residual": [
+     438.535959486601,
+     511.535959486601
+    ],
+    "trait.sycophancy": [
+     841,
+     885
+    ]
+   },
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Qwen3.8 Max (0902)",
+   "key": null,
+   "org": "Alibaba",
+   "metrics": {
+    "slop_residual": -129.563261878908,
+    "trait.sycophancy": 1128
+   },
+   "ci": {
+    "slop_residual": [
+     -168.563261878908,
+     -90.56326187890801
+    ],
+    "trait.sycophancy": [
+     1103.5,
+     1152.5
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "slop_residual": -256.452426483281,
+    "trait.sycophancy": 995
+   },
+   "ci": {
+    "slop_residual": [
+     -302.952426483281,
+     -209.952426483281
+    ],
+    "trait.sycophancy": [
+     972,
+     1018
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark 1.3 (Max)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "slop_residual": 49.5307127973424,
+    "trait.sycophancy": 1284
+   },
+   "ci": {
+    "slop_residual": [
+     9.030712797342403,
+     90.0307127973424
+    ],
+    "trait.sycophancy": [
+     1256.5,
+     1311.5
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM-5.3-Flash (Default)",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "slop_residual": 36.1293447289004,
+    "trait.sycophancy": 871
+   },
+   "ci": {
+    "slop_residual": [
+     6.129344728900399,
+     66.1293447289004
+    ],
+    "trait.sycophancy": [
+     851,
+     891
+    ]
+   },
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark Open (xHigh)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "slop_residual": 27.4657440882384,
+    "trait.sycophancy": 1217
+   },
+   "ci": {
+    "slop_residual": [
+     -15.534255911761601,
+     70.4657440882384
+    ],
+    "trait.sycophancy": [
+     1186.5,
+     1247.5
+    ]
+   },
+   "attrs": {
+    "licence": "Unverified"
+   },
+   "flags": []
+  }
+ ]
+}

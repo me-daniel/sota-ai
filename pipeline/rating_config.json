@@ -1,0 +1,429 @@
+{
+  "version": "v7",
+  "scale": {
+    "mean": 50,
+    "sd": 15,
+    "population_months": 12
+  },
+  "tiers": {
+    "order": [
+      "top-sota",
+      "closed-budget",
+      "large-oss",
+      "mid-oss",
+      "small-oss",
+      "little-oss",
+      "tiny-oss"
+    ],
+    "top_sota_n": 10,
+    "size_class_to_tier": {
+      "large": "large-oss",
+      "medium": "mid-oss",
+      "small": "small-oss",
+      "little": "little-oss",
+      "tiny": "tiny-oss"
+    },
+    "size_bounds_b": {
+      "tiny": 4.5,
+      "little": 15,
+      "small": 40,
+      "medium": 150
+    },
+    "show_per_tier": {
+      "top-sota": 10,
+      "closed-budget": 8,
+      "large-oss": 8,
+      "mid-oss": 8,
+      "small-oss": 10,
+      "tiny-oss": 8,
+      "little-oss": 8
+    },
+    "moe_extra": {
+      "small-oss": 4,
+      "mid-oss": 2,
+      "tiny-oss": 1,
+      "little-oss": 2
+    },
+    "moe_active_ratio": 0.34,
+    "top_sota_min_orgs": 2
+  },
+  "org_cap": 0.4,
+  "min_models_for_category_fit": 25,
+  "aa_cost_v432_to_v5": 2.0,
+  "categories": [
+    "overall",
+    "coding",
+    "writing",
+    "reasoning",
+    "professional"
+  ],
+  "sources": [
+    {
+      "id": "aa",
+      "org": "Artificial Analysis",
+      "label": "AA Intelligence Index (v5; v4.3.2 / Progress linked)",
+      "special": "aa_unified",
+      "w": {
+        "overall": 25,
+        "coding": 30,
+        "writing": 10,
+        "reasoning": 35,
+        "professional": 20
+      }
+    },
+    {
+      "id": "epoch",
+      "org": "Epoch AI",
+      "label": "Epoch ECI",
+      "source": "epoch_eci",
+      "metric": "eci",
+      "w": {
+        "overall": 15,
+        "coding": 10,
+        "writing": 0,
+        "reasoning": 35,
+        "professional": 0
+      }
+    },
+    {
+      "id": "vals",
+      "org": "Vals AI",
+      "label": "Vals Index",
+      "source": "vals",
+      "metric": "accuracy",
+      "category": "vals_index",
+      "w": {
+        "overall": 15,
+        "coding": 20,
+        "writing": 0,
+        "reasoning": 15,
+        "professional": 30
+      }
+    },
+    {
+      "id": "vals_sci",
+      "org": "Vals AI",
+      "label": "Vals Science Index",
+      "source": "vals",
+      "metric": "accuracy",
+      "category": "science_index",
+      "w": {
+        "overall": 0,
+        "coding": 0,
+        "writing": 0,
+        "reasoning": 10,
+        "professional": 0
+      }
+    },
+    {
+      "id": "lm_cw",
+      "org": "LMArena",
+      "label": "LMArena creative writing Elo",
+      "source": "lmarena_text",
+      "metric": "elo",
+      "category": "creative-writing",
+      "w": {
+        "overall": 5,
+        "coding": 0,
+        "writing": 35,
+        "reasoning": 0,
+        "professional": 0
+      }
+    },
+    {
+      "id": "lm_if",
+      "org": "LMArena",
+      "label": "LMArena instruction following Elo",
+      "source": "lmarena_text",
+      "metric": "elo",
+      "category": "instruction-following",
+      "w": {
+        "overall": 5,
+        "coding": 0,
+        "writing": 15,
+        "reasoning": 0,
+        "professional": 0
+      }
+    },
+    {
+      "id": "ag_code",
+      "org": "LMArena",
+      "label": "Agent Arena code",
+      "source": "arena_agent",
+      "metric": "net_improvement",
+      "category": "code",
+      "w": {
+        "overall": 8,
+        "coding": 25,
+        "writing": 0,
+        "reasoning": 0,
+        "professional": 0
+      }
+    },
+    {
+      "id": "ag_chat",
+      "org": "LMArena",
+      "label": "Agent Arena chat",
+      "source": "arena_agent",
+      "metric": "net_improvement",
+      "category": "chat",
+      "w": {
+        "overall": 0,
+        "coding": 0,
+        "writing": 20,
+        "reasoning": 0,
+        "professional": 0
+      }
+    },
+    {
+      "id": "ag_work",
+      "org": "LMArena",
+      "label": "Agent Arena work",
+      "source": "arena_agent",
+      "metric": "net_improvement",
+      "category": "work",
+      "w": {
+        "overall": 8,
+        "coding": 0,
+        "writing": 0,
+        "reasoning": 0,
+        "professional": 25
+      }
+    },
+    {
+      "id": "gdpx",
+      "org": "SemiAnalysis",
+      "label": "GDPx partial, without safety domains",
+      "source": "gdpx",
+      "metric": "partial_score",
+      "category": "composite_ex_safety",
+      "w": {
+        "overall": 10,
+        "coding": 0,
+        "writing": 0,
+        "reasoning": 0,
+        "professional": 30
+      }
+    },
+    {
+      "id": "gdpx_swe",
+      "org": "SemiAnalysis",
+      "label": "GDPx software engineering partial",
+      "source": "gdpx",
+      "metric": "partial_score",
+      "category": "software-engineering",
+      "w": {
+        "overall": 0,
+        "coding": 10,
+        "writing": 0,
+        "reasoning": 0,
+        "professional": 0
+      }
+    },
+    {
+      "id": "slop",
+      "org": "Artificial Analysis",
+      "label": "AA less slop (length-adjusted)",
+      "source": "aa_personality",
+      "metric": "slop_residual",
+      "sign": -1,
+      "w": {
+        "overall": 0,
+        "coding": 0,
+        "writing": 10,
+        "reasoning": 0,
+        "professional": 0
+      }
+    },
+    {
+      "id": "syc",
+      "org": "Artificial Analysis",
+      "label": "AA less sycophancy",
+      "source": "aa_personality",
+      "metric": "trait.sycophancy",
+      "sign": -1,
+      "w": {
+        "overall": 0,
+        "coding": 0,
+        "writing": 0,
+        "reasoning": 5,
+        "professional": 5
+      }
+    },
+    {
+      "id": "tbench",
+      "org": "Laude Institute",
+      "label": "Terminal-Bench 4.1 accuracy (best harness)",
+      "source": "tbench",
+      "metric": "accuracy",
+      "w": {
+        "overall": 8,
+        "coding": 25,
+        "writing": 0,
+        "reasoning": 0,
+        "professional": 0
+      }
+    },
+    {
+      "id": "swe_atlas",
+      "org": "Scale AI",
+      "label": "Scale SWE Atlas",
+      "source": "scale_seal",
+      "metric": "score",
+      "category": "swe-atlas",
+      "w": {
+        "overall": 5,
+        "coding": 20,
+        "writing": 0,
+        "reasoning": 0,
+        "professional": 0
+      }
+    },
+    {
+      "id": "apex_swe",
+      "org": "Mercor",
+      "label": "Mercor APEX-SWE pass@1",
+      "source": "mercor_apex",
+      "metric": "score",
+      "category": "apex-swe",
+      "w": {
+        "overall": 4,
+        "coding": 15,
+        "writing": 0,
+        "reasoning": 0,
+        "professional": 0
+      }
+    },
+    {
+      "id": "weirdml",
+      "org": "WeirdML (htihle)",
+      "label": "WeirdML v3",
+      "source": "weirdml",
+      "metric": "score",
+      "w": {
+        "overall": 5,
+        "coding": 15,
+        "writing": 0,
+        "reasoning": 0,
+        "professional": 0
+      }
+    },
+    {
+      "id": "lech",
+      "org": "Lech Mazur",
+      "label": "Lech Mazur creative writing (Thurstone)",
+      "source": "lechmazur_writing",
+      "metric": "thurstone",
+      "w": {
+        "overall": 5,
+        "coding": 0,
+        "writing": 30,
+        "reasoning": 0,
+        "professional": 0
+      }
+    },
+    {
+      "id": "multichallenge",
+      "org": "Scale AI",
+      "label": "Scale MultiChallenge",
+      "source": "scale_seal",
+      "metric": "score",
+      "category": "multichallenge",
+      "w": {
+        "overall": 4,
+        "coding": 0,
+        "writing": 15,
+        "reasoning": 0,
+        "professional": 0
+      }
+    },
+    {
+      "id": "matharena",
+      "org": "MathArena (ETH SRI)",
+      "label": "MathArena expected performance",
+      "source": "matharena",
+      "metric": "expected_performance",
+      "w": {
+        "overall": 8,
+        "coding": 0,
+        "writing": 0,
+        "reasoning": 25,
+        "professional": 0
+      }
+    },
+    {
+      "id": "simplebench",
+      "org": "SimpleBench",
+      "label": "SimpleBench",
+      "source": "simplebench",
+      "metric": "score",
+      "w": {
+        "overall": 4,
+        "coding": 0,
+        "writing": 0,
+        "reasoning": 10,
+        "professional": 0
+      }
+    },
+    {
+      "id": "hle",
+      "org": "Scale AI",
+      "label": "Scale HLE",
+      "source": "scale_seal",
+      "metric": "score",
+      "category": "hle-diamond",
+      "w": {
+        "overall": 5,
+        "coding": 0,
+        "writing": 0,
+        "reasoning": 20,
+        "professional": 0
+      }
+    },
+    {
+      "id": "apex_agents",
+      "org": "Mercor",
+      "label": "Mercor APEX-Agents pass@1",
+      "source": "mercor_apex",
+      "metric": "score",
+      "category": "apex-agents",
+      "w": {
+        "overall": 8,
+        "coding": 0,
+        "writing": 0,
+        "reasoning": 0,
+        "professional": 25
+      }
+    },
+    {
+      "id": "apex_v1",
+      "org": "Mercor",
+      "label": "Mercor APEX-v1 mean score",
+      "source": "mercor_apex",
+      "metric": "score",
+      "category": "apex-v1",
+      "w": {
+        "overall": 4,
+        "coding": 0,
+        "writing": 0,
+        "reasoning": 0,
+        "professional": 15
+      }
+    },
+    {
+      "id": "rli",
+      "org": "Scale AI",
+      "label": "Scale Remote Labor Index",
+      "source": "scale_seal",
+      "metric": "score",
+      "category": "rli",
+      "w": {
+        "overall": 5,
+        "coding": 0,
+        "writing": 0,
+        "reasoning": 0,
+        "professional": 20
+      }
+    }
+  ]
+}

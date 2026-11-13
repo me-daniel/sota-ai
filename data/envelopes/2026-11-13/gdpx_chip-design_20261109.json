@@ -1,0 +1,491 @@
+{
+ "extractor_version": "gdpx_fetch 1.0",
+ "source": "gdpx",
+ "category": "chip-design",
+ "page": "https://gdpx.semianalysis.com/",
+ "wayback_capture": null,
+ "retrieved": "2026-11-13T00:06:03Z",
+ "n": 21,
+ "notes": {
+  "updated_at": "2026-11-09",
+  "data_source": "final",
+  "domains": {
+   "rsi": "Recursive Self-Improvement",
+   "chip-design": "Chip Design",
+   "cybersecurity": "Cybersecurity",
+   "biology": "Biology",
+   "finance": "Finance",
+   "legal": "Legal",
+   "quant-trading": "Quant Trading",
+   "hardware-design": "Hardware Design",
+   "materials-science": "Materials Science",
+   "alignment": "Alignment",
+   "software-engineering": "Software Engineering"
+  },
+  "unit": "percent of task credit, mean of 3 attempts"
+ },
+ "records": [
+  {
+   "model": "Claude Fable 5.2 (Max)",
+   "key": "claude-fable-5-2",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 15.62,
+    "partial_score": 25.1167,
+    "cost_per_task": 96.6919,
+    "tokens_per_task": 1343798.5,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder Full",
+   "key": "muse-wonder-full",
+   "org": "Meta",
+   "metrics": {
+    "score": 0.56,
+    "partial_score": 2.7033,
+    "cost_per_task": null,
+    "tokens_per_task": 235433.9412,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Muse Code",
+    "reasoning": "Highest",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Opus 5.5 (Max)",
+   "key": "claude-opus-5-5",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 4.8033,
+    "partial_score": 12.0867,
+    "cost_per_task": 58.5441,
+    "tokens_per_task": 582264.7059,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna (Max)",
+   "key": "gpt-6-luna",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 1.2533,
+    "partial_score": 1.6667,
+    "cost_per_task": 1.5465,
+    "tokens_per_task": 599274.2941,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (Max)",
+   "key": "gpt-6-astra",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 4.4467,
+    "partial_score": 9.7167,
+    "cost_per_task": 73.8365,
+    "tokens_per_task": 372649.4118,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Argon (High)",
+   "key": "gemini-4-argon",
+   "org": "Google",
+   "metrics": {
+    "score": 1.5633,
+    "partial_score": 3.9467,
+    "cost_per_task": 17.4418,
+    "tokens_per_task": 439452.7647,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Antigravity",
+    "reasoning": "High",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT 6.1 Sol (Max)",
+   "key": "gpt-6-1-sol",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 5.6,
+    "partial_score": 12.3267,
+    "cost_per_task": 16.3388,
+    "tokens_per_task": 593675.4118,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5.5 (Max)",
+   "key": "claude-sonnet-5-5",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 3.5067,
+    "partial_score": 10.1533,
+    "cost_per_task": 66.2688,
+    "tokens_per_task": 1170469.4706,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Inkling",
+   "key": "inkling",
+   "org": "Thinking Machines",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 0.0,
+    "cost_per_task": 7.3235,
+    "tokens_per_task": 74455.7647,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "OpenCode",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Carbon (High)",
+   "key": "gemini-4-carbon",
+   "org": "Google",
+   "metrics": {
+    "score": 1.4,
+    "partial_score": 5.4333,
+    "cost_per_task": 13.9976,
+    "tokens_per_task": 551501.5758,
+    "tasks": 34,
+    "tasks_scored": 33,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Antigravity",
+    "reasoning": "High",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Haiku 5.5 (Max)",
+   "key": "claude-haiku-5-5",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 0.6867,
+    "partial_score": 2.36,
+    "cost_per_task": 3.2629,
+    "tokens_per_task": 1035496.0,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder",
+   "key": "muse-wonder",
+   "org": "Meta",
+   "metrics": {
+    "score": 0.08,
+    "partial_score": 0.9567,
+    "cost_per_task": 16.8153,
+    "tokens_per_task": 233836.0588,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Muse Code",
+    "reasoning": "Highest",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1 (Max)",
+   "key": "claude-fable-5-1",
+   "org": "Anthropic",
+   "metrics": {
+    "score": 0.83,
+    "partial_score": 5.4267,
+    "cost_per_task": 100.3712,
+    "tokens_per_task": 361359.4706,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Claude Code",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT 6.1 Terra (Max)",
+   "key": "gpt-6-1-terra",
+   "org": "OpenAI",
+   "metrics": {
+    "score": 2.75,
+    "partial_score": 7.1267,
+    "cost_per_task": 25.0555,
+    "tokens_per_task": 788993.5758,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Codex",
+    "reasoning": "Max",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.7 (xHigh)",
+   "key": "grok-4-7",
+   "org": "xAI",
+   "metrics": {
+    "score": 0.0167,
+    "partial_score": 1.0,
+    "cost_per_task": 24.2847,
+    "tokens_per_task": 195033.4118,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Grok Build",
+    "reasoning": "xHigh",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark Open",
+   "key": "muse-spark-open",
+   "org": "Meta",
+   "metrics": {
+    "score": 0.0,
+    "partial_score": 0.0,
+    "cost_per_task": 5.1429,
+    "tokens_per_task": 243367.3529,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Muse Code",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "DeepSeek 4.1 Flash 1017",
+   "key": "deepseek-4-1-flash",
+   "org": "DeepSeek",
+   "metrics": {
+    "score": 0.22,
+    "partial_score": 0.3867,
+    "cost_per_task": 1.2871,
+    "tokens_per_task": 350372.2941,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "DeepSeek Harness",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Kimi K3",
+   "key": "kimi-k3",
+   "org": "Moonshot AI",
+   "metrics": {
+    "score": 0.0667,
+    "partial_score": 0.7467,
+    "cost_per_task": 57.9418,
+    "tokens_per_task": 463373.7647,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "Kimi Code",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "MiniMax M3.1 Flash",
+   "key": "minimax-m3-1-flash",
+   "org": "MiniMax",
+   "metrics": {
+    "score": 0.09,
+    "partial_score": 0.18,
+    "cost_per_task": 3.0124,
+    "tokens_per_task": 416792.9412,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "MCode",
+    "reasoning": "Highest",
+    "open_weights": true,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "Qwen 3.8 Max",
+   "key": "qwen-3-8-max",
+   "org": "Alibaba",
+   "metrics": {
+    "score": 0.1233,
+    "partial_score": 0.31,
+    "cost_per_task": 16.3329,
+    "tokens_per_task": 516950.2941,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "OpenCode",
+    "reasoning": "Highest",
+    "open_weights": false,
+    "domains": null
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM 5.3 (Max)",
+   "key": "glm-5-3",
+   "org": "Z.ai",
+   "metrics": {
+    "score": 0.0633,
+    "partial_score": 0.2367,
+    "cost_per_task": 22.0076,
+    "tokens_per_task": 337938.8235,
+    "tasks": 34,
+    "tasks_scored": 34,
+    "domains_scored": 1
+   },
+   "ci": {},
+   "attrs": {
+    "harness": "ZCode",
+    "reasoning": "Max",
+    "open_weights": true,
+    "domains": null
+   },
+   "flags": []
+  }
+ ]
+}

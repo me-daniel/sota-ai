@@ -1,0 +1,430 @@
+{
+ "extractor_version": "import_legacy 1.0",
+ "source": "arena_agent",
+ "category": "work",
+ "page": "https://arena.ai/leaderboard/agent/work",
+ "wayback_capture": null,
+ "retrieved": "2026-10-23T00:00:00Z",
+ "n": 23,
+ "notes": {
+  "imported_from": "model_ratings_v6.xlsx"
+ },
+ "records": [
+  {
+   "model": "Claude Opus 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "net_improvement": 19.83
+   },
+   "ci": {
+    "net_improvement": [
+     16.979999999999997,
+     22.68
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Sonnet 5.5 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "net_improvement": 13.66
+   },
+   "ci": {
+    "net_improvement": [
+     10.1,
+     17.22
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Fable 5.1 (Max)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "net_improvement": 13.86
+   },
+   "ci": {
+    "net_improvement": [
+     11.559999999999999,
+     16.16
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Claude Haiku 5.5 (High)",
+   "key": null,
+   "org": "Anthropic",
+   "metrics": {
+    "net_improvement": 2.13
+   },
+   "ci": {
+    "net_improvement": [
+     0.96,
+     3.3
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Astra (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "net_improvement": 13.17
+   },
+   "ci": {
+    "net_improvement": [
+     10.629999999999999,
+     15.71
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6.1 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "net_improvement": 13.58
+   },
+   "ci": {
+    "net_improvement": [
+     11.66,
+     15.5
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "net_improvement": 3.22
+   },
+   "ci": {
+    "net_improvement": [
+     2.72,
+     3.72
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna (Medium)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "net_improvement": 0.46
+   },
+   "ci": {
+    "net_improvement": [
+     -0.6100000000000001,
+     1.53
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Luna (Low)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "net_improvement": -4.62
+   },
+   "ci": {
+    "net_improvement": [
+     -5.79,
+     -3.45
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 4 Argon (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "net_improvement": 10.88
+   },
+   "ci": {
+    "net_improvement": [
+     9.82,
+     11.940000000000001
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "key": null,
+   "org": "Google",
+   "metrics": {
+    "net_improvement": 1.97
+   },
+   "ci": {
+    "net_improvement": [
+     0.71,
+     3.23
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder Full (Max)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "net_improvement": 9.82
+   },
+   "ci": {
+    "net_improvement": [
+     8.22,
+     11.42
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Wonder (Max)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "net_improvement": 3.87
+   },
+   "ci": {
+    "net_improvement": [
+     2.13,
+     5.61
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Grok 4.7 (xHigh)",
+   "key": null,
+   "org": "SpaceXAI",
+   "metrics": {
+    "net_improvement": 2.53
+   },
+   "ci": {
+    "net_improvement": [
+     0.7299999999999998,
+     4.33
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Kimi K3.1 Pro (Default)",
+   "key": null,
+   "org": "Moonshot",
+   "metrics": {
+    "net_improvement": 9.65
+   },
+   "ci": {
+    "net_improvement": [
+     5.9,
+     13.4
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": [
+    "preliminary"
+   ]
+  },
+  {
+   "model": "DeepSeek V4.1 Flash 1017 (Max)",
+   "key": null,
+   "org": "DeepSeek",
+   "metrics": {
+    "net_improvement": 5.58
+   },
+   "ci": {
+    "net_improvement": [
+     4.59,
+     6.57
+    ]
+   },
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM-5.3 (Max)",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "net_improvement": 1.7
+   },
+   "ci": {
+    "net_improvement": [
+     0.71,
+     2.69
+    ]
+   },
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "MiMo-V2.6-Pro (Default)",
+   "key": null,
+   "org": "Xiaomi",
+   "metrics": {
+    "net_improvement": 3.44
+   },
+   "ci": {
+    "net_improvement": [
+     2.49,
+     4.39
+    ]
+   },
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "Qwen3.8 Max (0902)",
+   "key": null,
+   "org": "Alibaba",
+   "metrics": {
+    "net_improvement": 1.05
+   },
+   "ci": {
+    "net_improvement": [
+     0.33000000000000007,
+     1.77
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "GPT-6 Sol (Max)",
+   "key": null,
+   "org": "OpenAI",
+   "metrics": {
+    "net_improvement": 8.62
+   },
+   "ci": {
+    "net_improvement": [
+     6.59,
+     10.649999999999999
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "Muse Spark 1.3 (Max)",
+   "key": null,
+   "org": "Meta",
+   "metrics": {
+    "net_improvement": 3.34
+   },
+   "ci": {
+    "net_improvement": [
+     2.3499999999999996,
+     4.33
+    ]
+   },
+   "attrs": {
+    "licence": "Closed"
+   },
+   "flags": []
+  },
+  {
+   "model": "MiMo-V2.6-Flash (Default)",
+   "key": null,
+   "org": "Xiaomi",
+   "metrics": {
+    "net_improvement": 2.49
+   },
+   "ci": {
+    "net_improvement": [
+     0.9500000000000002,
+     4.03
+    ]
+   },
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  },
+  {
+   "model": "GLM-5.3-Flash (Default)",
+   "key": null,
+   "org": "Z.ai",
+   "metrics": {
+    "net_improvement": -1.82
+   },
+   "ci": {
+    "net_improvement": [
+     -2.6,
+     -1.04
+    ]
+   },
+   "attrs": {
+    "licence": "Open (MIT)"
+   },
+   "flags": []
+  }
+ ]
+}
