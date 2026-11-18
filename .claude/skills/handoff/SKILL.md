@@ -8,9 +8,10 @@ disable-model-invocation: true
 
 Overwrite `.claude/handoff.md` (git-ignored) with the template below. A reader with zero context must be able to continue from it alone.
 
-1. Collect facts by running them, not from memory: `git status --short`, `git log --oneline -5`, `git branch --show-current`. If the session touched the pipeline, rerun the last pipeline command and note its result.
+1. Collect facts by running them, not from memory: `git status --short`, `git log --oneline -5`, `git branch --show-current`, and this project's verification command (the "Verification" line under "Project specifics" in `CLAUDE.md`, or rerun the session's last check if there is none).
 2. Fill in the template. Keep it under 60 lines. Use file paths and commands, not prose about them. Record only what the repo can't tell the reader (decisions, dead ends, the reasons behind them, what the user asked for).
-3. Reply with the path and the first next step, in one line each.
+3. If "Project specifics" in `CLAUDE.md` names a project log, append a dated entry there as well (3 to 6 lines: what changed, the commit, what waits on the user). Never copy that log into the repo.
+4. Reply with the path and the first next step, in one line each.
 
 ```markdown
 # Handoff <YYYY-MM-DD HH:MM>
