@@ -27,6 +27,7 @@ Removing patterns is half the job. Sterile, voiceless writing is just as obvious
 - **Use "I" when it fits.** First person isn't unprofessional.
 - **Let some mess in.** Perfect structure feels algorithmic.
 - **Be specific.** Not "this is concerning" but "there's something unsettling about agents churning away at 3am."
+- **Keep useful structure.** Lists, numbered steps and tables scan better than prose when the items are parallel. Don't flatten them.
 
 ## Patterns to detect and fix
 
@@ -51,9 +52,9 @@ Removing patterns is half the job. Sterile, voiceless writing is just as obvious
 ### Style
 
 13. **Em dash overuse** — avoid em dashes entirely. Use periods, commas, or parentheses. Em dashes are an AI tell.
-14. **Colon overuse** — colons are fine before a list or example. Not as mid-sentence connectors. "If you're coming from traditional automation: instead of registering event handlers, you describe conditions" adds nothing with the colon. Rewrite to let the point stand on its own without comparison framing. "Describing when the scheduler should fire works best as plain English." Same meaning, no crutch punctuation.
+14. **Colon overuse** — colons are fine before a list or example. Not as mid-sentence connectors. "If you're coming from traditional automation: instead of registering event handlers, you describe conditions" adds nothing with the colon. Rewrite to let the point stand on its own without comparison framing. "Describing when the scheduler should fire works best as plain English." Same meaning, no crutch punctuation. A colon after a short opener in a list item is fine: `- Runs on the GPU: every tensor fits Metal.`
 15. **Boldface overuse** — don't bold every proper noun or acronym.
-16. **Inline-header lists** — "**Performance:** Performance improved..." Convert to prose.
+16. **Bold lead-ins** — no bold few-word sentence opening a bullet (`- **Fast.** It runs on...`). Keep the list. Write a plain opener with a colon (`- Fast on a Mac: it runs on...`) or just the sentence.
 17. **Title case headings** — use sentence case.
 18. **Decorative emojis** — remove from headings and bullets.
 19. **Curly quotes** — replace with straight quotes.
